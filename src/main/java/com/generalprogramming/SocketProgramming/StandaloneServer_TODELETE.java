@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class StandaloneServer {
+public class StandaloneServer_TODELETE {
 
     public static void main(String[] args) throws IOException {
         int count = 0;

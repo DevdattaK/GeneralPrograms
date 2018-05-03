@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f611645-27ab-463c-bf67-97495f3b46eb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/generalprogramming/SocketProgramming/MultithreadedServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/generalprogramming/SocketProgramming/MultithreadedServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/generalprogramming/SocketProgramming/MultithreadedServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/generalprogramming/SocketProgramming/MultithreadedServer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/generalprogramming/SocketProgramming/MultithreadedServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/generalprogramming/SocketProgramming/MultithreadedServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/generalprogramming/SocketProgramming/StandaloneServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/generalprogramming/SocketProgramming/StandaloneServer_TODELETE.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,8 +47,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="206">
+              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -124,6 +120,27 @@
               <item name="practicePrograms" type="b2602c69:ProjectViewProjectNode" />
               <item name="practicePrograms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practicePrograms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practicePrograms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practicePrograms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practicePrograms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SocketProgramming" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practicePrograms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practicePrograms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -160,9 +177,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StandaloneServer">
-    <configuration name="StandaloneServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.generalprogramming.SocketProgramming.StandaloneServer" />
+  <component name="RunManager" selected="Application.StandaloneServer_TODELETE">
+    <configuration name="StandaloneServer_TODELETE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.generalprogramming.SocketProgramming.StandaloneServer_TODELETE" />
       <module name="practicePrograms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -238,11 +255,11 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.MultiThreadedServerTest.maxConnectionTest" />
-      <item itemvalue="Application.StandaloneServer" />
+      <item itemvalue="Application.StandaloneServer_TODELETE" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StandaloneServer" />
+        <item itemvalue="Application.StandaloneServer_TODELETE" />
         <item itemvalue="JUnit.MultiThreadedServerTest.maxConnectionTest" />
       </list>
     </recent_temporary>
@@ -291,10 +308,10 @@
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Version Control" weight="0.32905984" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.52279204" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.47150996" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.47150996" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1738255" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1738255" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -418,7 +435,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/generalprogramming/SocketProgramming/StandaloneServer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/generalprogramming/SocketProgramming/StandaloneServer_TODELETE.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
@@ -465,8 +482,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="206">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
         </state>
       </provider>
     </entry>
