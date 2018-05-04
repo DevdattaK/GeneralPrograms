@@ -103,4 +103,13 @@ public class DeadlockFreeLockManager {
             }
         }
     }
+
+    public void cleanThreadRegistry() {
+        for (ResourceConsumingThread t: threadRegistry) {
+            t.clearResourceLists();
+            t.clearDependencyLists();
+        }
+
+        ResourceConsumingThread.setIsDeadlockDetected(false);
+    }
 }

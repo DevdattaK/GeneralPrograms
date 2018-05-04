@@ -30,4 +30,9 @@ public class Resource {
     public String getId() {
         return id;
     }
+
+    public synchronized void clearLocks() {
+        isLocked = false;
+        lockedBy = null;
+    }
 }

@@ -9,7 +9,7 @@ public class ResourceConsumingThread extends Thread {
     private List<ResourceConsumingThread> dependencyList;
     private List<Resource> acquiredResources;
     private List<Resource> requestedResources;
-    private volatile boolean isDeadlockDetected;
+    private volatile static boolean isDeadlockDetected;
     private final String id;
     private static int threadIdGenerator;
     private Runnable runnableBody;
@@ -43,7 +43,7 @@ public class ResourceConsumingThread extends Thread {
         return requestedResources;
     }
 
-    public boolean isDeadlockDetected() {
+    public static boolean isDeadlockDetected() {
         return isDeadlockDetected;
     }
 
@@ -74,4 +74,22 @@ public class ResourceConsumingThread extends Thread {
         return " " + id;
     }
 
+    public void clearResourceLists() {
+        List<Resource> listToClear = new ArrayList<>();
+        listToClear.addAll(this.acquiredResources);
+        listToClear.addAll(this.requestedResources);
+
+        for (Resource resource :
+                listToClear) {
+            resource.clearLocks();
+        }
+    }
+
+    public void clearDependencyLists() {
+        this.getDependencyList().clear();
+    }
+
+    public static void setIsDeadlockDetected(boolean isDeadlockDetected) {
+        ResourceConsumingThread.isDeadlockDetected = isDeadlockDetected;
+    }
 }

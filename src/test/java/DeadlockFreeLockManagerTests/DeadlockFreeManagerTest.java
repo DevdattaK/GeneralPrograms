@@ -6,16 +6,15 @@ import dealockFreeLockManager.ResourceConsumingThread;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.security.cert.CollectionCertStoreParameters;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.concurrent.TimeUnit;
-import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 import static org.junit.jupiter.api.Assertions.assertSame;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class DeadlockFreeManagerTest {
     private DeadlockFreeLockManager lockManager;
@@ -71,7 +70,7 @@ public class DeadlockFreeManagerTest {
     }
 
     @Test
-    void threadDependencyListTest() throws InterruptedException{
+    boolean threadDependencyListTest() throws InterruptedException{
         final Map<String, Resource> resourceMap = new HashMap<>();
         resourceMap.put("R1", new Resource());
         resourceMap.put("R2", new Resource());
@@ -132,7 +131,24 @@ public class DeadlockFreeManagerTest {
         t2.join();
         t3.join();
 
-        lockManager.displayThreadRegistry();
+       // lockManager.displayThreadRegistry();
         System.out.println("IsDeadlock detected : " + t1.isDeadlockDetected());
+        return ResourceConsumingThread.isDeadlockDetected();
+    }
+
+
+    @Test
+    void exhaustiveDeadlockDetection() throws Exception{
+
+        IntStream.range(0, 5)
+                 .forEach(i -> {
+                     try {
+                         boolean deadlockDetected = threadDependencyListTest();
+                         assertTrue(deadlockDetected);
+                         lockManager.cleanThreadRegistry();
+                     } catch (InterruptedException e) {
+                         e.printStackTrace();
+                     }
+                 });
     }
 }

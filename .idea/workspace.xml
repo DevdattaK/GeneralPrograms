@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f611645-27ab-463c-bf67-97495f3b46eb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dealockFreeLockManager/DeadlockFreeLockManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/generalprogramming/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/generalprogramming/SocketProgramming/MultithreadedServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/generalprogramming/SocketProgramming/MultithreadedServer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/generalprogramming/SocketProgramming/MultithreadedServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/generalprogramming/SocketProgramming/MultithreadedServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/generalprogramming/SocketProgramming/StandaloneServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/generalprogramming/SocketProgramming/TCPClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/generalprogramming/SocketProgramming/TCPClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/generalprogramming/SocketProgramming/TCPServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/generalprogramming/SocketProgramming/TCPServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SocketProgrammingTest/MultiThreadedServerTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SocketProgrammingTest/MultiThreadedServerTest$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SocketProgrammingTest/MultiThreadedServerTest$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SocketProgrammingTest/MultiThreadedServerTest$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SocketProgrammingTest/MultiThreadedServerTest$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SocketProgrammingTest/MultiThreadedServerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/generalprogramming/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dealockFreeLockManager/DeadlockFreeLockManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dealockFreeLockManager/DeadlockFreeLockManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dealockFreeLockManager/Resource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dealockFreeLockManager/Resource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dealockFreeLockManager/ResourceConsumingThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dealockFreeLockManager/ResourceConsumingThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DeadlockFreeLockManagerTests/DeadlockFreeManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DeadlockFreeLockManagerTests/DeadlockFreeManagerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,11 +21,12 @@
       <file leaf-file-name="Resource.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dealockFreeLockManager/Resource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-117">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="316">
+              <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
               <folding>
                 <element signature="e#238#239#0" expanded="true" />
                 <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#127#128#0" expanded="true" />
                 <element signature="e#158#159#0" expanded="true" />
                 <element signature="e#191#192#0" expanded="true" />
                 <element signature="e#221#222#0" expanded="true" />
@@ -53,8 +42,8 @@
       <file leaf-file-name="ResourceConsumingThread.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dealockFreeLockManager/ResourceConsumingThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="73" column="16" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
+            <state relative-caret-position="416">
+              <caret line="93" column="5" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1121#1122#0" expanded="true" />
@@ -73,16 +62,18 @@
                 <element signature="e#1983#1984#0" expanded="true" />
                 <element signature="e#2029#2030#0" expanded="true" />
                 <element signature="e#2071#2072#0" expanded="true" />
+                <element signature="e#2539#2540#0" expanded="true" />
+                <element signature="e#2558#2559#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeadlockFreeLockManager.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DeadlockFreeLockManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/dealockFreeLockManager/DeadlockFreeLockManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="30" column="77" selection-start-line="30" selection-start-column="77" selection-end-line="30" selection-end-column="77" />
+            <state relative-caret-position="422">
+              <caret line="112" column="59" selection-start-line="112" selection-start-column="59" selection-end-line="112" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#961#962#0" expanded="true" />
@@ -93,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeadlockFreeManagerTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DeadlockFreeManagerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/DeadlockFreeLockManagerTests/DeadlockFreeManagerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="74" column="66" lean-forward="true" selection-start-line="74" selection-start-column="66" selection-end-line="74" selection-end-column="66" />
+            <state relative-caret-position="299">
+              <caret line="147" column="56" lean-forward="true" selection-start-line="147" selection-start-column="56" selection-end-line="147" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#singletonTestForLockManager#0;class#DeadlockFreeManagerTest#0" />
@@ -125,6 +116,7 @@
     <findStrings>
       <find>handleClientConnectionRequest</find>
       <find>ResourceConsumingThread</find>
+      <find>isDeadlockDetected</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -142,10 +134,10 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/test/DeadlockFreeLockManagerTests/DeadlockFreeLockManager.java" />
         <option value="$PROJECT_DIR$/src/test/DeadlockFreeLockManagerTests/DeadlockFreeLockManagerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dealockFreeLockManager/Resource.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/dealockFreeLockManager/ResourceConsumingThread.java" />
         <option value="$PROJECT_DIR$/src/test/java/DeadlockFreeLockManagerTests/DeadlockFreeManagerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dealockFreeLockManager/Resource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dealockFreeLockManager/ResourceConsumingThread.java" />
         <option value="$PROJECT_DIR$/src/main/java/dealockFreeLockManager/DeadlockFreeLockManager.java" />
       </list>
     </option>
@@ -253,11 +245,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DeadlockFreeManagerTest.threadDependencyListTest">
+  <component name="RunManager" selected="JUnit.DeadlockFreeManagerTest.exhaustiveDeadlockDetection">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="DeadlockFreeLockManagerTest.threadCreationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DeadlockFreeManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practicePrograms" />
       <extension name="coverage">
         <pattern>
@@ -268,9 +260,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="DeadlockFreeLockManagerTests" />
-      <option name="MAIN_CLASS_NAME" value="DeadlockFreeLockManagerTests.DeadlockFreeLockManagerTest" />
-      <option name="METHOD_NAME" value="threadCreationTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="DeadlockFreeLockManagerTests.DeadlockFreeManagerTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -303,7 +295,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="DeadlockFreeManagerTest.singletonTestForLockManager" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DeadlockFreeManagerTest.exhaustiveDeadlockDetection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practicePrograms" />
       <extension name="coverage">
         <pattern>
@@ -315,7 +307,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="DeadlockFreeLockManagerTests" />
       <option name="MAIN_CLASS_NAME" value="DeadlockFreeLockManagerTests.DeadlockFreeManagerTest" />
-      <option name="METHOD_NAME" value="singletonTestForLockManager" />
+      <option name="METHOD_NAME" value="exhaustiveDeadlockDetection" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -411,19 +403,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.DeadlockFreeLockManagerTest.threadCreationTest" />
-      <item itemvalue="JUnit.DeadlockFreeManagerTest.singletonTestForLockManager" />
       <item itemvalue="JUnit.DeadlockFreeManagerTest.threadCreationTest" />
       <item itemvalue="JUnit.DeadlockFreeManagerTest.acquireLockTest" />
       <item itemvalue="JUnit.DeadlockFreeManagerTest.threadDependencyListTest" />
+      <item itemvalue="JUnit.DeadlockFreeManagerTest" />
+      <item itemvalue="JUnit.DeadlockFreeManagerTest.exhaustiveDeadlockDetection" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DeadlockFreeManagerTest.exhaustiveDeadlockDetection" />
         <item itemvalue="JUnit.DeadlockFreeManagerTest.threadDependencyListTest" />
+        <item itemvalue="JUnit.DeadlockFreeManagerTest" />
         <item itemvalue="JUnit.DeadlockFreeManagerTest.acquireLockTest" />
         <item itemvalue="JUnit.DeadlockFreeManagerTest.threadCreationTest" />
-        <item itemvalue="JUnit.DeadlockFreeManagerTest.singletonTestForLockManager" />
-        <item itemvalue="JUnit.DeadlockFreeLockManagerTest.threadCreationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -441,15 +433,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DeadlockFreeManagerTest_threadDependencyListTest - 2018.05.04 at 13h 59m 45s.xml">
-      <configuration name="DeadlockFreeManagerTest.threadDependencyListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DeadlockFreeManagerTest_threadDependencyListTest - 2018.05.04 at 14h 02m 46s.xml">
-      <configuration name="DeadlockFreeManagerTest.threadDependencyListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DeadlockFreeManagerTest_threadDependencyListTest - 2018.05.04 at 14h 04m 24s.xml">
-      <configuration name="DeadlockFreeManagerTest.threadDependencyListTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DeadlockFreeManagerTest_threadDependencyListTest - 2018.05.04 at 14h 41m 58s.xml">
       <configuration name="DeadlockFreeManagerTest.threadDependencyListTest" configurationId="JUnit" />
     </history-entry>
@@ -471,6 +454,15 @@
     <history-entry file="DeadlockFreeManagerTest_threadDependencyListTest - 2018.05.04 at 14h 54m 54s.xml">
       <configuration name="DeadlockFreeManagerTest.threadDependencyListTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DeadlockFreeManagerTest - 2018.05.04 at 15h 04m 20s.xml">
+      <configuration name="DeadlockFreeManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeadlockFreeManagerTest_threadDependencyListTest - 2018.05.04 at 15h 05m 08s.xml">
+      <configuration name="DeadlockFreeManagerTest.threadDependencyListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeadlockFreeManagerTest_exhaustiveDeadlockDetection - 2018.05.04 at 15h 13m 02s.xml">
+      <configuration name="DeadlockFreeManagerTest.exhaustiveDeadlockDetection" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -485,11 +477,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32905984" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39173788" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.47150996" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22507122" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2037037" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.22348994" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32214764" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -546,7 +538,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/DeadlockFreeLockManagerTests/DeadlockFreeManagerTest.java</url>
-          <line>134</line>
+          <line>133</line>
           <properties>
             <option name="lambda-ordinal" value="-1" />
           </properties>
@@ -554,13 +546,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/DeadlockFreeLockManagerTests/DeadlockFreeManagerTest.java</url>
-          <line>88</line>
+          <line>87</line>
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/DeadlockFreeLockManagerTests/DeadlockFreeManagerTest.java</url>
-          <line>118</line>
+          <line>117</line>
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
@@ -737,13 +729,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/function/BooleanSupplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DeadlockFreeLockManagerTests/DeadlockFreeManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="147" column="56" lean-forward="true" selection-start-line="147" selection-start-column="56" selection-end-line="147" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#singletonTestForLockManager#0;class#DeadlockFreeManagerTest#0" />
+            <element signature="method#threadCreationTest#0;class#DeadlockFreeManagerTest#0" />
+            <element signature="e#1235#1236#0" expanded="true" />
+            <element signature="e#1329#1330#0" expanded="true" />
+            <element signature="method#acquireLockTest#0;class#DeadlockFreeManagerTest#0" />
+            <element signature="e#1857#1858#0" expanded="true" />
+            <element signature="e#1958#1959#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dealockFreeLockManager/Resource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-117">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="316">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
           <folding>
             <element signature="e#238#239#0" expanded="true" />
             <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#127#128#0" expanded="true" />
             <element signature="e#158#159#0" expanded="true" />
             <element signature="e#191#192#0" expanded="true" />
             <element signature="e#221#222#0" expanded="true" />
@@ -757,8 +774,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dealockFreeLockManager/ResourceConsumingThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="73" column="16" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
+        <state relative-caret-position="416">
+          <caret line="93" column="5" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1121#1122#0" expanded="true" />
@@ -777,36 +794,21 @@
             <element signature="e#1983#1984#0" expanded="true" />
             <element signature="e#2029#2030#0" expanded="true" />
             <element signature="e#2071#2072#0" expanded="true" />
+            <element signature="e#2539#2540#0" expanded="true" />
+            <element signature="e#2558#2559#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dealockFreeLockManager/DeadlockFreeLockManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="30" column="77" selection-start-line="30" selection-start-column="77" selection-end-line="30" selection-end-column="77" />
+        <state relative-caret-position="422">
+          <caret line="112" column="59" selection-start-line="112" selection-start-column="59" selection-end-line="112" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#961#962#0" expanded="true" />
             <element signature="e#990#991#0" expanded="true" />
             <element signature="method#getInstance#0;class#DeadlockFreeLockManager#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DeadlockFreeLockManagerTests/DeadlockFreeManagerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="74" column="66" lean-forward="true" selection-start-line="74" selection-start-column="66" selection-end-line="74" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#singletonTestForLockManager#0;class#DeadlockFreeManagerTest#0" />
-            <element signature="method#threadCreationTest#0;class#DeadlockFreeManagerTest#0" />
-            <element signature="e#1235#1236#0" expanded="true" />
-            <element signature="e#1329#1330#0" expanded="true" />
-            <element signature="method#acquireLockTest#0;class#DeadlockFreeManagerTest#0" />
-            <element signature="e#1857#1858#0" expanded="true" />
-            <element signature="e#1958#1959#0" expanded="true" />
           </folding>
         </state>
       </provider>
