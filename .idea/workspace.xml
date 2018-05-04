@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f611645-27ab-463c-bf67-97495f3b46eb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dealockFreeLockManager/DeadlockFreeLockManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dealockFreeLockManager/DeadlockFreeLockManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DeadlockFreeLockManagerTests/DeadlockFreeManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DeadlockFreeLockManagerTests/DeadlockFreeManagerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,13 +16,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ContextSwitchMeasure.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ContextSwitchBenchmark/ContextSwitchMeasure.java">
+      <file leaf-file-name="DeadlockFreeLockManager.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dealockFreeLockManager/DeadlockFreeLockManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="75">
+              <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#getInstance#0;class#DeadlockFreeLockManager#0" />
               </folding>
             </state>
           </provider>
@@ -59,12 +60,12 @@
         <option value="$PROJECT_DIR$/src/test/DeadlockFreeLockManagerTests/DeadlockFreeLockManager.java" />
         <option value="$PROJECT_DIR$/src/test/DeadlockFreeLockManagerTests/DeadlockFreeLockManagerTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/DeadlockFreeLockManagerTests/DeadlockFreeManagerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/dealockFreeLockManager/Resource.java" />
         <option value="$PROJECT_DIR$/src/main/java/dealockFreeLockManager/ResourceConsumingThread.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dealockFreeLockManager/DeadlockFreeLockManager.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/ContextSwitchBenchmark/ContextSwitchMeasure.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dealockFreeLockManager/DeadlockFreeLockManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DeadlockFreeLockManagerTests/DeadlockFreeManagerTest.java" />
       </list>
     </option>
   </component>
@@ -115,6 +116,35 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="practicePrograms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practicePrograms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dealockFreeLockManager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practicePrograms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practicePrograms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practicePrograms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practicePrograms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practicePrograms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practicePrograms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="DeadlockFreeLockManagerTests" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -146,7 +176,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ContextSwitchMeasure">
+  <component name="RunManager" selected="JUnit.DeadlockFreeManagerTest.acquireLockWithMethod_createNewThread_Test">
     <configuration name="ContextSwitchMeasure" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ContextSwitchBenchmark.ContextSwitchMeasure" />
       <module name="practicePrograms" />
@@ -184,7 +214,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="DeadlockFreeManagerTest.acquireLockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DeadlockFreeManagerTest.acquireLockWithMethod_createNewThread_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practicePrograms" />
       <extension name="coverage">
         <pattern>
@@ -196,7 +226,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="DeadlockFreeLockManagerTests" />
       <option name="MAIN_CLASS_NAME" value="DeadlockFreeLockManagerTests.DeadlockFreeManagerTest" />
-      <option name="METHOD_NAME" value="acquireLockTest" />
+      <option name="METHOD_NAME" value="acquireLockWithMethod_createNewThread_Test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -292,19 +322,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.DeadlockFreeManagerTest.acquireLockTest" />
       <item itemvalue="JUnit.DeadlockFreeManagerTest.threadDependencyListTest" />
       <item itemvalue="JUnit.DeadlockFreeManagerTest" />
       <item itemvalue="JUnit.DeadlockFreeManagerTest.exhaustiveDeadlockDetection" />
       <item itemvalue="Application.ContextSwitchMeasure" />
+      <item itemvalue="JUnit.DeadlockFreeManagerTest.acquireLockWithMethod_createNewThread_Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DeadlockFreeManagerTest.acquireLockWithMethod_createNewThread_Test" />
         <item itemvalue="Application.ContextSwitchMeasure" />
         <item itemvalue="JUnit.DeadlockFreeManagerTest.exhaustiveDeadlockDetection" />
         <item itemvalue="JUnit.DeadlockFreeManagerTest.threadDependencyListTest" />
         <item itemvalue="JUnit.DeadlockFreeManagerTest" />
-        <item itemvalue="JUnit.DeadlockFreeManagerTest.acquireLockTest" />
       </list>
     </recent_temporary>
   </component>
@@ -322,9 +352,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DeadlockFreeManagerTest_threadDependencyListTest - 2018.05.04 at 14h 44m 36s.xml">
-      <configuration name="DeadlockFreeManagerTest.threadDependencyListTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DeadlockFreeManagerTest_threadDependencyListTest - 2018.05.04 at 14h 49m 53s.xml">
       <configuration name="DeadlockFreeManagerTest.threadDependencyListTest" configurationId="JUnit" />
     </history-entry>
@@ -352,10 +379,12 @@
     <history-entry file="DeadlockFreeManagerTest_exhaustiveDeadlockDetection - 2018.05.04 at 15h 21m 53s.xml">
       <configuration name="DeadlockFreeManagerTest.exhaustiveDeadlockDetection" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DeadlockFreeManagerTest_acquireLockWithMethod_createNewThread_Test - 2018.05.04 at 16h 16m 19s.xml">
+      <configuration name="DeadlockFreeManagerTest.acquireLockWithMethod_createNewThread_Test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -366,8 +395,8 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32905984" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43732193" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2037037" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43732193" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.6096866" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24563758" />
@@ -427,7 +456,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/DeadlockFreeLockManagerTests/DeadlockFreeManagerTest.java</url>
-          <line>133</line>
+          <line>146</line>
           <properties>
             <option name="lambda-ordinal" value="-1" />
           </properties>
@@ -435,13 +464,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/DeadlockFreeLockManagerTests/DeadlockFreeManagerTest.java</url>
-          <line>87</line>
+          <line>100</line>
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/DeadlockFreeLockManagerTests/DeadlockFreeManagerTest.java</url>
-          <line>117</line>
+          <line>130</line>
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
@@ -618,68 +647,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dealockFreeLockManager/DeadlockFreeLockManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="112" column="59" selection-start-line="112" selection-start-column="59" selection-end-line="112" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#961#962#0" expanded="true" />
-            <element signature="e#990#991#0" expanded="true" />
-            <element signature="method#getInstance#0;class#DeadlockFreeLockManager#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DeadlockFreeLockManagerTests/DeadlockFreeManagerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="147" column="56" lean-forward="true" selection-start-line="147" selection-start-column="56" selection-end-line="147" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#singletonTestForLockManager#0;class#DeadlockFreeManagerTest#0" />
-            <element signature="method#threadCreationTest#0;class#DeadlockFreeManagerTest#0" />
-            <element signature="e#1235#1236#0" expanded="true" />
-            <element signature="e#1329#1330#0" expanded="true" />
-            <element signature="method#acquireLockTest#0;class#DeadlockFreeManagerTest#0" />
-            <element signature="e#1857#1858#0" expanded="true" />
-            <element signature="e#1958#1959#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dealockFreeLockManager/ResourceConsumingThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="93" column="5" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1121#1122#0" expanded="true" />
-            <element signature="e#1158#1159#0" expanded="true" />
-            <element signature="e#1210#1211#0" expanded="true" />
-            <element signature="e#1250#1251#0" expanded="true" />
-            <element signature="e#1303#1304#0" expanded="true" />
-            <element signature="e#1344#1345#0" expanded="true" />
-            <element signature="e#1387#1388#0" expanded="true" />
-            <element signature="e#1428#1429#0" expanded="true" />
-            <element signature="e#1760#1761#0" expanded="true" />
-            <element signature="e#1818#1819#0" expanded="true" />
-            <element signature="e#1853#1854#0" expanded="true" />
-            <element signature="e#1878#1879#0" expanded="true" />
-            <element signature="e#1935#1936#0" expanded="true" />
-            <element signature="e#1983#1984#0" expanded="true" />
-            <element signature="e#2029#2030#0" expanded="true" />
-            <element signature="e#2071#2072#0" expanded="true" />
-            <element signature="e#2539#2540#0" expanded="true" />
-            <element signature="e#2558#2559#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -715,6 +686,46 @@
           <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DeadlockFreeLockManagerTests/DeadlockFreeManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="82" column="5" lean-forward="true" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#singletonTestForLockManager#0;class#DeadlockFreeManagerTest#0" />
+            <element signature="method#threadCreationTest#0;class#DeadlockFreeManagerTest#0" />
+            <element signature="e#1254#1255#0" expanded="true" />
+            <element signature="e#1348#1349#0" expanded="true" />
+            <element signature="e#1876#1877#0" expanded="true" />
+            <element signature="e#1977#1978#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dealockFreeLockManager/ResourceConsumingThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="93" column="5" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#run#0;class#ResourceConsumingThread#0" />
+            <element signature="method#clearResourceLists#0;class#ResourceConsumingThread#0" />
+            <element signature="method#setIsDeadlockDetected#0;class#ResourceConsumingThread#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dealockFreeLockManager/DeadlockFreeLockManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getInstance#0;class#DeadlockFreeLockManager#0" />
           </folding>
         </state>
       </provider>

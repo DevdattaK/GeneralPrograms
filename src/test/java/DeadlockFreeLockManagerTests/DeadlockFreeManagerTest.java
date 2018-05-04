@@ -70,6 +70,19 @@ public class DeadlockFreeManagerTest {
     }
 
     @Test
+    public void acquireLockWithMethod_createNewThread_Test() throws InterruptedException{
+       ResourceConsumingThread t = lockManager.createNewThread(() -> {
+
+           lockManager.acquireLockOnResourceForThread(new Resource(), (ResourceConsumingThread) Thread.currentThread());
+       });
+
+       t.start();
+       t.join();
+
+       lockManager.displayThreadRegistry();
+    }
+
+    @Test
     boolean threadDependencyListTest() throws InterruptedException{
         final Map<String, Resource> resourceMap = new HashMap<>();
         resourceMap.put("R1", new Resource());

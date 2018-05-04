@@ -20,8 +20,11 @@ public class DeadlockFreeLockManager {
         threadRegistry.add(t);
     }
 
-    public void addNewThreadToRegistry(ResourceConsumingThread thread){
+    public ResourceConsumingThread createNewThread(Runnable runnable){
+        ResourceConsumingThread thread = new ResourceConsumingThread(runnable);
         threadRegistry.add(thread);
+
+        return thread;
     }
 
     //to be invoked when a thread asks for new resource.
