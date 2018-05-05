@@ -8,15 +8,20 @@ public class Philosopher extends Thread {
     private int numberOfTimesEaten = 0;
     private static final int MAX_NUMBER_OF_EATING_ALLOWED = 4;
     public enum tState {EATING, THINKING, REQUESTING_CHOPSTICKS, RELEASING_CHOPSTICKS}
-    private tState philosopherState;
-    private final Chopstick leftChopstick;
-    private final Chopstick rightChopstick;
+    protected tState philosopherState;
+    protected final Chopstick leftChopstick;
+    protected final Chopstick rightChopstick;
+
 
     public Philosopher(int id, Chopstick leftChopstick, Chopstick rightChopstick) {
         this.philospoherId = id;
         this.philosopherState = tState.THINKING;
         this.leftChopstick = leftChopstick;
         this.rightChopstick = rightChopstick;
+    }
+
+    public void resetEatingCounter(){
+        numberOfTimesEaten = 0;
     }
 
     public void displayState() {
@@ -42,7 +47,7 @@ public class Philosopher extends Thread {
         return rightChopstick;
     }
 
-    private void acquireChopsticks(Chopstick chopstick) throws InterruptedException {
+    protected void acquireChopsticks(Chopstick chopstick) throws InterruptedException {
         boolean isAcquiredByCurrentPhilosopher = false;
 
         while (!isAcquiredByCurrentPhilosopher) {
@@ -62,13 +67,12 @@ public class Philosopher extends Thread {
         }
     }
 
-    public void pickupChopsticks() throws InterruptedException {
+    protected void pickupChopsticks() throws InterruptedException {
         this.philosopherState = tState.REQUESTING_CHOPSTICKS;
         this.acquireChopsticks(leftChopstick);
         this.acquireChopsticks(rightChopstick);
         this.philosopherState = tState.EATING;
     }
-
 
     @Override
     public void run() {
@@ -99,7 +103,7 @@ public class Philosopher extends Thread {
         }
     }
 
-    private void releaseChopsticksAndStartThinkingAgain() {
+    protected void releaseChopsticksAndStartThinkingAgain() {
         philosopherState = tState.RELEASING_CHOPSTICKS;
 
         this.releaseChopstick(leftChopstick);

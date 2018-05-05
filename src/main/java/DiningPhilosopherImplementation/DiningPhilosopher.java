@@ -6,9 +6,10 @@ import java.util.stream.IntStream;
 
 public class DiningPhilosopher {
     //chopsticks on table
-    private final List<Chopstick> chopsticks;
-    private final List<Philosopher> philosophers;
+    protected final List<Chopstick> chopsticks;
+    protected final List<Philosopher> philosophers;
     private final int NUMBER_OF_PHILOSOPHERS = 5;
+
 
     public DiningPhilosopher() {
         chopsticks = new ArrayList<>(NUMBER_OF_PHILOSOPHERS);
@@ -20,6 +21,9 @@ public class DiningPhilosopher {
         IntStream.rangeClosed(0, NUMBER_OF_PHILOSOPHERS-1).forEach(i -> philosophers.add(new Philosopher(i, chopsticks.get(i), chopsticks.get((i+1)%5))));
     }
 
+    public List<Chopstick> getChopsticks() {
+        return chopsticks;
+    }
 
     public void displayCurrentStateOfDiningTable(){
         philosophers.stream().forEach(p -> p.displayState());
@@ -31,5 +35,9 @@ public class DiningPhilosopher {
 
     public int getNUMBER_OF_PHILOSOPHERS() {
         return NUMBER_OF_PHILOSOPHERS;
+    }
+
+    public void resetEatingCounter() {
+        this.getPhilosophers().stream().forEach(p -> p.resetEatingCounter());
     }
 }

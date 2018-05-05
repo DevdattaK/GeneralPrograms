@@ -13,12 +13,16 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class DiningPhilospherTests {
     private DiningPhilosopher obj;
+    private DiningPhilosopherWithDeadlockAvoidance deadlockFreeDining;
 
 
     @BeforeEach
     void setUp() {
         obj = new DiningPhilosopher();
         obj.setupDiningPhilosopherProblem();
+
+        deadlockFreeDining = new DiningPhilosopherWithDeadlockAvoidance(new AtleastOneRightyPhilosopherStrategy());
+        deadlockFreeDining.setupDiningPhilosopherProblem();
     }
 
     @Test
@@ -63,5 +67,33 @@ public class DiningPhilospherTests {
 
         service.awaitTermination(1, TimeUnit.HOURS);
     }
+
+    @Test
+    void deadlockFreePhilosophers_LeftyRightyStrategy_Test() throws InterruptedException {
+        System.out.println("Allowing each philosopher to eat 5 times");
+
+
+        IntStream.rangeClosed(0, 5).forEach(i ->
+        {
+            System.out.println("\n ________________Execution# : " + (i+1) + "______________________________");
+            ExecutorService service = Executors.newFixedThreadPool(deadlockFreeDining.getNUMBER_OF_PHILOSOPHERS());
+
+            for (Philosopher p :
+                    deadlockFreeDining.getPhilosophers()) {
+                service.submit(p);
+            }
+
+            service.shutdown();
+
+            try {
+                service.awaitTermination(1, TimeUnit.HOURS);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }finally {
+                deadlockFreeDining.resetEatingCounter();
+            }
+        });
+    }
+
 
 }
