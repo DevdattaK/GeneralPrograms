@@ -2,8 +2,8 @@ package SocketProgrammingTest;
 
 import com.generalprogramming.SocketProgramming.MultithreadedServer;
 import com.generalprogramming.SocketProgramming.TCPClient;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -20,7 +20,7 @@ public class MultiThreadedServerTest {
     private TCPClient client4;
     private MultithreadedServer server;
 
-    @Before
+    @BeforeEach
     public void setUp() throws Exception {
         client1 = new TCPClient();
         client2 = new TCPClient();

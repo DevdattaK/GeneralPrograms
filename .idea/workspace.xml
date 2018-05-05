@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f611645-27ab-463c-bf67-97495f3b46eb" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/Chopstick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/DiningPhilosopher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DiningPhilosopherImplementation/DiningPhilospherTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/SocketProgrammingTest/MultiThreadedServerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SocketProgrammingTest/MultiThreadedServerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -14,7 +18,79 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="DiningPhilospherTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DiningPhilosopherImplementation/DiningPhilospherTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="490">
+              <caret line="61" column="27" lean-forward="true" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#problemSetupTest#0;class#DiningPhilospherTests#0" />
+                <element signature="method#pickupChopstickSimpleTest#0;class#DiningPhilospherTests#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DiningPhilosopher.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/DiningPhilosopher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="373">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#746#747#0" expanded="true" />
+                <element signature="e#782#783#0" expanded="true" />
+                <element signature="e#898#899#0" expanded="true" />
+                <element signature="e#933#934#0" expanded="true" />
+                <element signature="e#979#980#0" expanded="true" />
+                <element signature="e#1024#1025#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Chopstick.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/Chopstick.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+              <folding>
+                <element signature="e#136#137#0" expanded="true" />
+                <element signature="e#172#173#0" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
+                <element signature="e#307#308#0" expanded="true" />
+                <element signature="e#341#342#0" expanded="true" />
+                <element signature="e#370#371#0" expanded="true" />
+                <element signature="e#404#405#0" expanded="true" />
+                <element signature="e#450#451#0" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
+                <element signature="e#472#473#0" expanded="true" />
+                <element signature="e#599#600#0" expanded="true" />
+                <element signature="e#635#636#0" expanded="true" />
+                <element signature="e#802#803#0" expanded="true" />
+                <element signature="e#840#841#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Philosopher.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/Philosopher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="98" column="9" selection-start-line="98" selection-start-column="9" selection-end-line="98" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#displayState#0;class#Philosopher#0" />
+                <element signature="method#pickupChopsticks#0;class#Philosopher#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -51,6 +127,12 @@
         <option value="$PROJECT_DIR$/src/main/java/ContextSwitchBenchmark/ContextSwitchMeasure.java" />
         <option value="$PROJECT_DIR$/src/main/java/dealockFreeLockManager/DeadlockFreeLockManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/DeadlockFreeLockManagerTests/DeadlockFreeManagerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DiningPhilosopher/DiningPhilospherTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SocketProgrammingTest/MultiThreadedServerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/DiningPhilosopher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/Chopstick.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DiningPhilosopherImplementation/DiningPhilospherTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/Philosopher.java" />
       </list>
     </option>
   </component>
@@ -73,9 +155,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -107,7 +186,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dealockFreeLockManager" type="462c0819:PsiDirectoryNode" />
+              <item name="DiningPhilosopherImplementation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practicePrograms" type="b2602c69:ProjectViewProjectNode" />
@@ -133,12 +212,31 @@
             <path>
               <item name="practicePrograms" type="b2602c69:ProjectViewProjectNode" />
               <item name="practicePrograms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="DiningPhilosopherImplementation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practicePrograms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practicePrograms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SocketProgrammingTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practicePrograms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practicePrograms" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -166,43 +264,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DeadlockFreeManagerTest.acquireLockWithMethod_createNewThread_Test">
-    <configuration name="ContextSwitchMeasure" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ContextSwitchBenchmark.ContextSwitchMeasure" />
-      <module name="practicePrograms" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ContextSwitchBenchmark.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="JUnit.DiningPhilospherTests.pickupLeftChopstickForEachPhilosopherCreatingDeadlockTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="DeadlockFreeManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="practicePrograms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DeadlockFreeLockManagerTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="DeadlockFreeLockManagerTests" />
-      <option name="MAIN_CLASS_NAME" value="DeadlockFreeLockManagerTests.DeadlockFreeManagerTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="DeadlockFreeManagerTest.acquireLockWithMethod_createNewThread_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practicePrograms" />
@@ -227,19 +291,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="DeadlockFreeManagerTest.exhaustiveDeadlockDetection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DiningPhilospherTests.pickupChopstickSimpleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practicePrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DeadlockFreeLockManagerTests.*" />
+          <option name="PATTERN" value="DiningPhilosopherImplementation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="DeadlockFreeLockManagerTests" />
-      <option name="MAIN_CLASS_NAME" value="DeadlockFreeLockManagerTests.DeadlockFreeManagerTest" />
-      <option name="METHOD_NAME" value="exhaustiveDeadlockDetection" />
+      <option name="PACKAGE_NAME" value="DiningPhilosopherImplementation" />
+      <option name="MAIN_CLASS_NAME" value="DiningPhilosopherImplementation.DiningPhilospherTests" />
+      <option name="METHOD_NAME" value="pickupChopstickSimpleTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -250,19 +314,65 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="DeadlockFreeManagerTest.threadDependencyListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DiningPhilospherTests.pickupChopstickTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practicePrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DeadlockFreeLockManagerTests.*" />
+          <option name="PATTERN" value="DiningPhilosopherImplementation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="DeadlockFreeLockManagerTests" />
-      <option name="MAIN_CLASS_NAME" value="DeadlockFreeLockManagerTests.DeadlockFreeManagerTest" />
-      <option name="METHOD_NAME" value="threadDependencyListTest" />
+      <option name="PACKAGE_NAME" value="DiningPhilosopherImplementation" />
+      <option name="MAIN_CLASS_NAME" value="DiningPhilosopherImplementation.DiningPhilospherTests" />
+      <option name="METHOD_NAME" value="pickupChopstickTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="DiningPhilospherTests.pickupLeftChopstickForEachPhilosopherCreatingDeadlockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practicePrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DiningPhilosopherImplementation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="DiningPhilosopherImplementation" />
+      <option name="MAIN_CLASS_NAME" value="DiningPhilosopherImplementation.DiningPhilospherTests" />
+      <option name="METHOD_NAME" value="pickupLeftChopstickForEachPhilosopherCreatingDeadlockTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="DiningPhilospherTests.problemSetupTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practicePrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DiningPhilosopherImplementation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="DiningPhilosopherImplementation" />
+      <option name="MAIN_CLASS_NAME" value="DiningPhilosopherImplementation.DiningPhilospherTests" />
+      <option name="METHOD_NAME" value="problemSetupTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -312,19 +422,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.DeadlockFreeManagerTest.threadDependencyListTest" />
-      <item itemvalue="JUnit.DeadlockFreeManagerTest" />
-      <item itemvalue="JUnit.DeadlockFreeManagerTest.exhaustiveDeadlockDetection" />
-      <item itemvalue="Application.ContextSwitchMeasure" />
       <item itemvalue="JUnit.DeadlockFreeManagerTest.acquireLockWithMethod_createNewThread_Test" />
+      <item itemvalue="JUnit.DiningPhilospherTests.problemSetupTest" />
+      <item itemvalue="JUnit.DiningPhilospherTests.pickupChopstickTest" />
+      <item itemvalue="JUnit.DiningPhilospherTests.pickupChopstickSimpleTest" />
+      <item itemvalue="JUnit.DiningPhilospherTests.pickupLeftChopstickForEachPhilosopherCreatingDeadlockTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DiningPhilospherTests.pickupLeftChopstickForEachPhilosopherCreatingDeadlockTest" />
+        <item itemvalue="JUnit.DiningPhilospherTests.pickupChopstickSimpleTest" />
+        <item itemvalue="JUnit.DiningPhilospherTests.pickupChopstickTest" />
+        <item itemvalue="JUnit.DiningPhilospherTests.problemSetupTest" />
         <item itemvalue="JUnit.DeadlockFreeManagerTest.acquireLockWithMethod_createNewThread_Test" />
-        <item itemvalue="Application.ContextSwitchMeasure" />
-        <item itemvalue="JUnit.DeadlockFreeManagerTest.exhaustiveDeadlockDetection" />
-        <item itemvalue="JUnit.DeadlockFreeManagerTest.threadDependencyListTest" />
-        <item itemvalue="JUnit.DeadlockFreeManagerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -342,39 +452,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DeadlockFreeManagerTest_threadDependencyListTest - 2018.05.04 at 14h 49m 53s.xml">
-      <configuration name="DeadlockFreeManagerTest.threadDependencyListTest" configurationId="JUnit" />
+    <history-entry file="DiningPhilospherTests_pickupChopstickTest - 2018.05.05 at 10h 37m 21s.xml">
+      <configuration name="DiningPhilospherTests.pickupChopstickTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DeadlockFreeManagerTest_threadDependencyListTest - 2018.05.04 at 14h 51m 46s.xml">
-      <configuration name="DeadlockFreeManagerTest.threadDependencyListTest" configurationId="JUnit" />
+    <history-entry file="DiningPhilospherTests_pickupChopstickTest - 2018.05.05 at 11h 23m 51s.xml">
+      <configuration name="DiningPhilospherTests.pickupChopstickTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DeadlockFreeManagerTest_threadDependencyListTest - 2018.05.04 at 14h 52m 48s.xml">
-      <configuration name="DeadlockFreeManagerTest.threadDependencyListTest" configurationId="JUnit" />
+    <history-entry file="DiningPhilospherTests_pickupChopstickTest - 2018.05.05 at 11h 24m 32s.xml">
+      <configuration name="DiningPhilospherTests.pickupChopstickTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DeadlockFreeManagerTest_threadDependencyListTest - 2018.05.04 at 14h 53m 28s.xml">
-      <configuration name="DeadlockFreeManagerTest.threadDependencyListTest" configurationId="JUnit" />
+    <history-entry file="DiningPhilospherTests_pickupChopstickTest - 2018.05.05 at 11h 30m 39s.xml">
+      <configuration name="DiningPhilospherTests.pickupChopstickTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DeadlockFreeManagerTest_threadDependencyListTest - 2018.05.04 at 14h 54m 54s.xml">
-      <configuration name="DeadlockFreeManagerTest.threadDependencyListTest" configurationId="JUnit" />
+    <history-entry file="DiningPhilospherTests_pickupChopstickTest - 2018.05.05 at 11h 38m 34s.xml">
+      <configuration name="DiningPhilospherTests.pickupChopstickTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DeadlockFreeManagerTest - 2018.05.04 at 15h 04m 20s.xml">
-      <configuration name="DeadlockFreeManagerTest" configurationId="JUnit" />
+    <history-entry file="DiningPhilospherTests_pickupChopstickTest - 2018.05.05 at 11h 43m 49s.xml">
+      <configuration name="DiningPhilospherTests.pickupChopstickTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DeadlockFreeManagerTest_threadDependencyListTest - 2018.05.04 at 15h 05m 08s.xml">
-      <configuration name="DeadlockFreeManagerTest.threadDependencyListTest" configurationId="JUnit" />
+    <history-entry file="DiningPhilospherTests_pickupChopstickSimpleTest - 2018.05.05 at 11h 46m 54s.xml">
+      <configuration name="DiningPhilospherTests.pickupChopstickSimpleTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DeadlockFreeManagerTest_exhaustiveDeadlockDetection - 2018.05.04 at 15h 13m 02s.xml">
-      <configuration name="DeadlockFreeManagerTest.exhaustiveDeadlockDetection" configurationId="JUnit" />
+    <history-entry file="DiningPhilospherTests_pickupChopstickSimpleTest - 2018.05.05 at 11h 49m 57s.xml">
+      <configuration name="DiningPhilospherTests.pickupChopstickSimpleTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DeadlockFreeManagerTest_exhaustiveDeadlockDetection - 2018.05.04 at 15h 21m 53s.xml">
-      <configuration name="DeadlockFreeManagerTest.exhaustiveDeadlockDetection" configurationId="JUnit" />
+    <history-entry file="DiningPhilospherTests_pickupLeftChopstickForEachPhilosopherCreatingDeadlockTest - 2018.05.05 at 12h 28m 11s.xml">
+      <configuration name="DiningPhilospherTests.pickupLeftChopstickForEachPhilosopherCreatingDeadlockTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DeadlockFreeManagerTest_acquireLockWithMethod_createNewThread_Test - 2018.05.04 at 16h 16m 19s.xml">
-      <configuration name="DeadlockFreeManagerTest.acquireLockWithMethod_createNewThread_Test" configurationId="JUnit" />
+    <history-entry file="DiningPhilospherTests_pickupLeftChopstickForEachPhilosopherCreatingDeadlockTest - 2018.05.05 at 12h 35m 22s.xml">
+      <configuration name="DiningPhilospherTests.pickupLeftChopstickForEachPhilosopherCreatingDeadlockTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -385,18 +496,18 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32905984" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.43732193" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33190882" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.14814815" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.19800569" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24563758" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24899329" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.35754985" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.24643874" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -408,13 +519,13 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2920228" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22348994" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32905984" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -424,9 +535,9 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.47150996" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32905984" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Capture Tool" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32905984" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info id="Favorites" order="6" side_tool="true" />
@@ -439,7 +550,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/SocketProgrammingTest/MultiThreadedServerTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/SocketProgrammingTest/MultiThreadedServerTest.java</url>
           <line>45</line>
           <properties />
           <option name="timeStamp" value="5" />
@@ -465,7 +576,7 @@
           <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="15" />
+      <option name="time" value="19" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -562,16 +673,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/SocketProgrammingTest/MultiThreadedServerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/generalprogramming/SocketProgramming/TCPClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -595,16 +696,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/DeadlockFreeLockManagerTests/DeadlockFreeLockManagerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/DeadlockFreeLockManagerTests/DeadlockFreeLockManagerTest.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -623,13 +715,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/generalprogramming/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/generalprogramming/AppTest.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/function/BooleanSupplier.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
@@ -680,22 +766,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DeadlockFreeLockManagerTests/DeadlockFreeManagerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="82" column="5" lean-forward="true" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#singletonTestForLockManager#0;class#DeadlockFreeManagerTest#0" />
-            <element signature="method#threadCreationTest#0;class#DeadlockFreeManagerTest#0" />
-            <element signature="e#1254#1255#0" expanded="true" />
-            <element signature="e#1348#1349#0" expanded="true" />
-            <element signature="e#1876#1877#0" expanded="true" />
-            <element signature="e#1977#1978#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dealockFreeLockManager/ResourceConsumingThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
@@ -716,6 +786,83 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#getInstance#0;class#DeadlockFreeLockManager#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SocketProgrammingTest/MultiThreadedServerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="58" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DeadlockFreeLockManagerTests/DeadlockFreeManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/Chopstick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+          <folding>
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#802#803#0" expanded="true" />
+            <element signature="e#840#841#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/DiningPhilosopher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#746#747#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+            <element signature="e#979#980#0" expanded="true" />
+            <element signature="e#1024#1025#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DiningPhilosopherImplementation/DiningPhilospherTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="61" column="27" lean-forward="true" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#problemSetupTest#0;class#DiningPhilospherTests#0" />
+            <element signature="method#pickupChopstickSimpleTest#0;class#DiningPhilospherTests#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/Philosopher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="98" column="9" selection-start-line="98" selection-start-column="9" selection-end-line="98" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#displayState#0;class#Philosopher#0" />
+            <element signature="method#pickupChopsticks#0;class#Philosopher#0" />
           </folding>
         </state>
       </provider>
