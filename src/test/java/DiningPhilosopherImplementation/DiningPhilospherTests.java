@@ -13,16 +13,19 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class DiningPhilospherTests {
     private DiningPhilosopher obj;
-    private DiningPhilosopherWithDeadlockAvoidance deadlockFreeDining;
-
+    private DiningPhilosopherWithDeadlockAvoidance deadlockFreePhilosophers_LeftyRightCombo;
+    private DiningPhilosopherWithDeadlockAvoidance deadlockFreePhilosophers_RestrictedAccess;
 
     @BeforeEach
     void setUp() {
         obj = new DiningPhilosopher();
         obj.setupDiningPhilosopherProblem();
 
-        deadlockFreeDining = new DiningPhilosopherWithDeadlockAvoidance(new AtleastOneRightyPhilosopherStrategy());
-        deadlockFreeDining.setupDiningPhilosopherProblem();
+        deadlockFreePhilosophers_LeftyRightCombo = new DiningPhilosopherWithDeadlockAvoidance(new AtleastOneRightyPhilosopherStrategy());
+        deadlockFreePhilosophers_LeftyRightCombo.setupDiningPhilosopherProblem();
+
+        deadlockFreePhilosophers_RestrictedAccess = new DiningPhilosopherWithDeadlockAvoidance(new RestrictNumberOfPhilosophersStrategy());
+        deadlockFreePhilosophers_RestrictedAccess.setupDiningPhilosopherProblem();
     }
 
     @Test
@@ -76,10 +79,10 @@ public class DiningPhilospherTests {
         IntStream.rangeClosed(0, 5).forEach(i ->
         {
             System.out.println("\n ________________Execution# : " + (i+1) + "______________________________");
-            ExecutorService service = Executors.newFixedThreadPool(deadlockFreeDining.getNUMBER_OF_PHILOSOPHERS());
+            ExecutorService service = Executors.newFixedThreadPool(deadlockFreePhilosophers_LeftyRightCombo.getNUMBER_OF_PHILOSOPHERS());
 
             for (Philosopher p :
-                    deadlockFreeDining.getPhilosophers()) {
+                    deadlockFreePhilosophers_LeftyRightCombo.getPhilosophers()) {
                 service.submit(p);
             }
 
@@ -90,10 +93,35 @@ public class DiningPhilospherTests {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }finally {
-                deadlockFreeDining.resetEatingCounter();
+                deadlockFreePhilosophers_LeftyRightCombo.resetEatingCounter();
             }
         });
     }
 
+    @Test
+    void deadlockFreePhilosophers_RestrictedAccessStrategy_Test() {
+        System.out.println("Allowing each philosopher to eat 5 times");
 
+
+        IntStream.rangeClosed(0, 5).forEach(i ->
+        {
+            System.out.println("\n ________________Execution# : " + (i+1) + "______________________________");
+            ExecutorService service = Executors.newFixedThreadPool(deadlockFreePhilosophers_RestrictedAccess.getPhilosophers().size());
+
+            for (Philosopher p :
+                    deadlockFreePhilosophers_RestrictedAccess.getPhilosophers()) {
+                service.submit(p);
+            }
+
+            service.shutdown();
+
+            try {
+                service.awaitTermination(1, TimeUnit.HOURS);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }finally {
+                deadlockFreePhilosophers_RestrictedAccess.resetEatingCounter();
+            }
+        });
+    }
 }
