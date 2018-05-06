@@ -47,7 +47,7 @@ public class Philosopher extends Thread {
         return rightChopstick;
     }
 
-    protected void acquireChopsticks(Chopstick chopstick) throws InterruptedException {
+    protected void acquireChopstick(Chopstick chopstick) throws InterruptedException {
         boolean isAcquiredByCurrentPhilosopher = false;
 
         while (!isAcquiredByCurrentPhilosopher) {
@@ -69,8 +69,8 @@ public class Philosopher extends Thread {
 
     protected void pickupChopsticks() throws InterruptedException {
         this.philosopherState = tState.REQUESTING_CHOPSTICKS;
-        this.acquireChopsticks(leftChopstick);
-        this.acquireChopsticks(rightChopstick);
+        this.acquireChopstick(leftChopstick);
+        this.acquireChopstick(rightChopstick);
         this.philosopherState = tState.EATING;
     }
 

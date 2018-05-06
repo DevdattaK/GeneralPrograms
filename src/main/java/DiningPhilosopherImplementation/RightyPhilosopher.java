@@ -10,8 +10,8 @@ public class RightyPhilosopher extends Philosopher {
     @Override
     public void pickupChopsticks() throws InterruptedException {
         this.philosopherState = tState.REQUESTING_CHOPSTICKS;
-        this.acquireChopsticks(rightChopstick);
-        this.acquireChopsticks(leftChopstick);
+        this.acquireChopstick(rightChopstick);
+        this.acquireChopstick(leftChopstick);
         this.philosopherState = tState.EATING;
     }
 

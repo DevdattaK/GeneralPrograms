@@ -8,6 +8,7 @@ public class Chopstick {
 
     public Chopstick(int id) {
         chopstickId = id;
+        status = tStatus.AVAILABLE;
     }
 
     public int getChopstickId() {
@@ -31,8 +32,10 @@ public class Chopstick {
     }
 
     public synchronized void acquire(Philosopher byPhilosopher){
-        this.setStatus(tStatus.IN_USE);
-        this.chopstickHolder = byPhilosopher;
+        if(!this.isInUse()) {
+            this.setStatus(tStatus.IN_USE);
+            this.chopstickHolder = byPhilosopher;
+        }
     }
 
     public synchronized Philosopher getChopstickHolder(){
