@@ -16,6 +16,7 @@ public class DiningPhilospherTests {
     private DiningPhilosopherWithDeadlockAvoidance deadlockFreePhilosophers_LeftyRightCombo;
     private DiningPhilosopherWithDeadlockAvoidance deadlockFreePhilosophers_RestrictedAccess;
     private DiningPhilosopherWithDeadlockAvoidance getDeadlockFreePhilosophers_PollingNeighbors;
+    private DiningPhilosopherWithDeadlockAvoidance getDeadlockFreePhilosophers_ResourceSacrificingPhilosopher;
 
     @BeforeEach
     void setUp() {
@@ -30,6 +31,9 @@ public class DiningPhilospherTests {
 
         getDeadlockFreePhilosophers_PollingNeighbors = new DiningPhilosopherWithDeadlockAvoidance(new PollingNeighborsIntentStrategy());
         getDeadlockFreePhilosophers_PollingNeighbors.setupDiningPhilosopherProblem();
+
+        getDeadlockFreePhilosophers_ResourceSacrificingPhilosopher = new DiningPhilosopherWithDeadlockAvoidance(new ResourceReleaseStrategy());
+        getDeadlockFreePhilosophers_ResourceSacrificingPhilosopher.setupDiningPhilosopherProblem();
     }
 
     @Test
@@ -148,6 +152,7 @@ public class DiningPhilospherTests {
     }
 
     @Test
+    //not working consistently. Frequently hits deadlocks. INCOMPLETE
     void deadlockFreePhilosophers_PollNeighborIntent_Test() {
         System.out.println("Allowing each philosopher to eat 5 times");
 
@@ -170,6 +175,33 @@ public class DiningPhilospherTests {
                 e.printStackTrace();
             }finally {
                 getDeadlockFreePhilosophers_PollingNeighbors.resetEatingCounter();
+            }
+        });
+    }
+
+    @Test
+    void deadlockFreePhilosophers_ResourceSacrificingPhilosopher_Test() {
+        System.out.println("Allowing each philosopher to eat 5 times");
+
+
+        IntStream.rangeClosed(0, 42).forEach(i ->
+        {
+            System.out.println("\n ________________Execution# : " + (i+1) + "______________________________");
+            ExecutorService service = Executors.newFixedThreadPool(getDeadlockFreePhilosophers_ResourceSacrificingPhilosopher.getNUMBER_OF_PHILOSOPHERS());
+
+            for (Philosopher p :
+                    getDeadlockFreePhilosophers_ResourceSacrificingPhilosopher.getPhilosophers()) {
+                service.submit(p);
+            }
+
+            service.shutdown();
+
+            try {
+                service.awaitTermination(1, TimeUnit.HOURS);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }finally {
+                getDeadlockFreePhilosophers_ResourceSacrificingPhilosopher.resetEatingCounter();
             }
         });
     }

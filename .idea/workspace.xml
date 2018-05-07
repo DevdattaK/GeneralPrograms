@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f611645-27ab-463c-bf67-97495f3b46eb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/NeighborAwarePhilosopher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/PollingNeighborsIntentStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/LockAwareChopstick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/ResourceSacrificingPhilosopher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/Chopstick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/Chopstick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/Philosopher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/Philosopher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/RightyPhilosopher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/RightyPhilosopher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/DiningPhilosopherImplementation/DiningPhilospherTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DiningPhilosopherImplementation/DiningPhilospherTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,67 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="DiningPhilospherTests.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/DiningPhilosopherImplementation/DiningPhilospherTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="154" column="34" selection-start-line="154" selection-start-column="34" selection-end-line="154" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#problemSetupTest#0;class#DiningPhilospherTests#0" />
-                <element signature="method#pickupChopstickSimpleTest#0;class#DiningPhilospherTests#0" />
-                <element signature="method#pickupLeftChopstickForEachPhilosopherCreatingDeadlockTest#0;class#DiningPhilospherTests#0" />
-                <element signature="method#deadlockFreePhilosophers_LeftyRightyStrategy_Test#0;class#DiningPhilospherTests#0" />
-                <element signature="method#neighbourHungryTest#0;class#DiningPhilospherTests#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NeighborAwarePhilosopher.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/NeighborAwarePhilosopher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="82" column="29" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="29" />
-              <folding>
-                <element signature="method#NeighborAwarePhilosopher#0;class#NeighborAwarePhilosopher#0" />
-                <element signature="e#636#637#0" expanded="true" />
-                <element signature="e#667#668#0" expanded="true" />
-                <element signature="method#displayState#0;class#NeighborAwarePhilosopher#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Chopstick.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/Chopstick.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
-              <folding>
-                <element signature="e#1048#1049#0" expanded="true" />
-                <element signature="e#1086#1087#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Philosopher.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/Philosopher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#Philosopher#0;class#Philosopher#0" />
-                <element signature="method#pickupChopsticks#0;class#Philosopher#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -129,8 +67,11 @@
         <option value="$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/RestrictNumberOfPhilosophersStrategy.java" />
         <option value="$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/Philosopher.java" />
         <option value="$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/PollingNeighborsIntentStrategy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/Chopstick.java" />
         <option value="$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/NeighborAwarePhilosopher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/ResourceReleaseStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/Chopstick.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/ResourceSacrificingPhilosopher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/LockAwareChopstick.java" />
         <option value="$PROJECT_DIR$/src/test/java/DiningPhilosopherImplementation/DiningPhilospherTests.java" />
       </list>
     </option>
@@ -224,32 +165,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DiningPhilospherTests.deadlockFreePhilosophers_PollNeighborIntent_Test">
+  <component name="RunManager" selected="JUnit.DiningPhilospherTests.deadlockFreePhilosophers_ResourceSacrificingPhilosopher_Test">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="DiningPhilospherTests.deadlockFreePhilosophers_LeftyRightyStrategy_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="practicePrograms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DiningPhilosopherImplementation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="DiningPhilosopherImplementation" />
-      <option name="MAIN_CLASS_NAME" value="DiningPhilosopherImplementation.DiningPhilospherTests" />
-      <option name="METHOD_NAME" value="deadlockFreePhilosophers_LeftyRightyStrategy_Test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="DiningPhilospherTests.deadlockFreePhilosophers_PollNeighborIntent_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practicePrograms" />
@@ -264,6 +182,29 @@
       <option name="PACKAGE_NAME" value="DiningPhilosopherImplementation" />
       <option name="MAIN_CLASS_NAME" value="DiningPhilosopherImplementation.DiningPhilospherTests" />
       <option name="METHOD_NAME" value="deadlockFreePhilosophers_PollNeighborIntent_Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="DiningPhilospherTests.deadlockFreePhilosophers_ResourceSacrificingPhilosopher_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practicePrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DiningPhilosopherImplementation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="DiningPhilosopherImplementation" />
+      <option name="MAIN_CLASS_NAME" value="DiningPhilosopherImplementation.DiningPhilospherTests" />
+      <option name="METHOD_NAME" value="deadlockFreePhilosophers_ResourceSacrificingPhilosopher_Test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -382,19 +323,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.DiningPhilospherTests.deadlockFreePhilosophers_LeftyRightyStrategy_Test" />
       <item itemvalue="JUnit.DiningPhilospherTests.deadlockFreePhilosophers_RestrictedAccessStrategy_Test" />
       <item itemvalue="JUnit.DiningPhilospherTests.neighbourAwareDiningSetup_test" />
       <item itemvalue="JUnit.DiningPhilospherTests.deadlockFreePhilosophers_PollNeighborIntent_Test" />
       <item itemvalue="JUnit.DiningPhilospherTests.neighbourHungryTest" />
+      <item itemvalue="JUnit.DiningPhilospherTests.deadlockFreePhilosophers_ResourceSacrificingPhilosopher_Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DiningPhilospherTests.deadlockFreePhilosophers_ResourceSacrificingPhilosopher_Test" />
         <item itemvalue="JUnit.DiningPhilospherTests.deadlockFreePhilosophers_PollNeighborIntent_Test" />
         <item itemvalue="JUnit.DiningPhilospherTests.neighbourHungryTest" />
         <item itemvalue="JUnit.DiningPhilospherTests.neighbourAwareDiningSetup_test" />
         <item itemvalue="JUnit.DiningPhilospherTests.deadlockFreePhilosophers_RestrictedAccessStrategy_Test" />
-        <item itemvalue="JUnit.DiningPhilospherTests.deadlockFreePhilosophers_LeftyRightyStrategy_Test" />
       </list>
     </recent_temporary>
   </component>
@@ -412,24 +353,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DiningPhilospherTests_deadlockFreePhilosophers_PollNeighborIntent_Test - 2018.05.06 at 13h 39m 00s.xml">
-      <configuration name="DiningPhilospherTests.deadlockFreePhilosophers_PollNeighborIntent_Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DiningPhilospherTests_deadlockFreePhilosophers_PollNeighborIntent_Test - 2018.05.06 at 14h 04m 03s.xml">
-      <configuration name="DiningPhilospherTests.deadlockFreePhilosophers_PollNeighborIntent_Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DiningPhilospherTests_deadlockFreePhilosophers_PollNeighborIntent_Test - 2018.05.06 at 14h 07m 42s.xml">
-      <configuration name="DiningPhilospherTests.deadlockFreePhilosophers_PollNeighborIntent_Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DiningPhilospherTests_deadlockFreePhilosophers_PollNeighborIntent_Test - 2018.05.06 at 14h 09m 28s.xml">
-      <configuration name="DiningPhilospherTests.deadlockFreePhilosophers_PollNeighborIntent_Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DiningPhilospherTests_deadlockFreePhilosophers_PollNeighborIntent_Test - 2018.05.06 at 14h 11m 14s.xml">
-      <configuration name="DiningPhilospherTests.deadlockFreePhilosophers_PollNeighborIntent_Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DiningPhilospherTests_deadlockFreePhilosophers_PollNeighborIntent_Test - 2018.05.06 at 16h 02m 40s.xml">
-      <configuration name="DiningPhilospherTests.deadlockFreePhilosophers_PollNeighborIntent_Test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DiningPhilospherTests_deadlockFreePhilosophers_PollNeighborIntent_Test - 2018.05.06 at 16h 13m 40s.xml">
       <configuration name="DiningPhilospherTests.deadlockFreePhilosophers_PollNeighborIntent_Test" configurationId="JUnit" />
     </history-entry>
@@ -441,6 +364,24 @@
     </history-entry>
     <history-entry file="DiningPhilospherTests_deadlockFreePhilosophers_PollNeighborIntent_Test - 2018.05.06 at 16h 34m 32s.xml">
       <configuration name="DiningPhilospherTests.deadlockFreePhilosophers_PollNeighborIntent_Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DiningPhilospherTests_deadlockFreePhilosophers_ResourceSacrificingPhilosopher_Test - 2018.05.06 at 18h 22m 53s.xml">
+      <configuration name="DiningPhilospherTests.deadlockFreePhilosophers_ResourceSacrificingPhilosopher_Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DiningPhilospherTests_deadlockFreePhilosophers_ResourceSacrificingPhilosopher_Test - 2018.05.06 at 18h 26m 28s.xml">
+      <configuration name="DiningPhilospherTests.deadlockFreePhilosophers_ResourceSacrificingPhilosopher_Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DiningPhilospherTests_deadlockFreePhilosophers_ResourceSacrificingPhilosopher_Test - 2018.05.06 at 18h 29m 55s.xml">
+      <configuration name="DiningPhilospherTests.deadlockFreePhilosophers_ResourceSacrificingPhilosopher_Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DiningPhilospherTests_deadlockFreePhilosophers_ResourceSacrificingPhilosopher_Test - 2018.05.06 at 18h 33m 01s.xml">
+      <configuration name="DiningPhilospherTests.deadlockFreePhilosophers_ResourceSacrificingPhilosopher_Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DiningPhilospherTests_deadlockFreePhilosophers_ResourceSacrificingPhilosopher_Test - 2018.05.06 at 18h 37m 17s.xml">
+      <configuration name="DiningPhilospherTests.deadlockFreePhilosophers_ResourceSacrificingPhilosopher_Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DiningPhilospherTests_deadlockFreePhilosophers_ResourceSacrificingPhilosopher_Test - 2018.05.06 at 18h 43m 20s.xml">
+      <configuration name="DiningPhilospherTests.deadlockFreePhilosophers_ResourceSacrificingPhilosopher_Test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -455,11 +396,11 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32905984" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43162394" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.1951567" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6994302" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.5968661" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.75203913" weight="0.147651" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.75203913" visible="true" weight="0.25838926" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.42307693" />
       <window_info id="Structure" order="1" sideWeight="0.24796085" side_tool="true" weight="0.17718121" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -536,7 +477,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/DiningPhilosopherImplementation/DiningPhilospherTests.java</url>
-          <line>84</line>
+          <line>88</line>
           <properties />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
@@ -553,7 +494,7 @@
           <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="31" />
+      <option name="time" value="32" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
@@ -816,16 +757,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/AtleastOneRightyPhilosopherStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="27" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/DiningPhilosopher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -861,29 +792,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/Chopstick.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
-          <folding>
-            <element signature="e#1048#1049#0" expanded="true" />
-            <element signature="e#1086#1087#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/Philosopher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Philosopher#0;class#Philosopher#0" />
-            <element signature="method#pickupChopsticks#0;class#Philosopher#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/NeighborAwarePhilosopher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="91">
@@ -897,17 +805,85 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/AtleastOneRightyPhilosopherStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DiningPhilosopherImplementation/DiningPhilospherTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="154" column="34" selection-start-line="154" selection-start-column="34" selection-end-line="154" selection-end-column="34" />
+        <state relative-caret-position="123">
+          <caret line="186" column="35" selection-start-line="186" selection-start-column="35" selection-end-line="186" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#problemSetupTest#0;class#DiningPhilospherTests#0" />
             <element signature="method#pickupChopstickSimpleTest#0;class#DiningPhilospherTests#0" />
             <element signature="method#pickupLeftChopstickForEachPhilosopherCreatingDeadlockTest#0;class#DiningPhilospherTests#0" />
             <element signature="method#deadlockFreePhilosophers_LeftyRightyStrategy_Test#0;class#DiningPhilospherTests#0" />
+            <element signature="method#deadlockFreePhilosophers_RestrictedAccessStrategy_Test#0;class#DiningPhilospherTests#0" />
+            <element signature="method#neighbourAwareDiningSetup_test#0;class#DiningPhilospherTests#0" />
             <element signature="method#neighbourHungryTest#0;class#DiningPhilospherTests#0" />
+            <element signature="method#deadlockFreePhilosophers_PollNeighborIntent_Test#0;class#DiningPhilospherTests#0" />
+            <element signature="e#5305#6056#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/ResourceReleaseStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/LockAwareChopstick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/Chopstick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#1048#1049#0" expanded="true" />
+            <element signature="e#1086#1087#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/ResourceSacrificingPhilosopher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="17" column="89" selection-start-line="17" selection-start-column="89" selection-end-line="17" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/Philosopher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="105" column="3" lean-forward="true" selection-start-line="105" selection-start-column="3" selection-end-line="112" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

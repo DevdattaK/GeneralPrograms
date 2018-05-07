@@ -4,7 +4,7 @@ public class Chopstick {
     private final int chopstickId;
     public enum tStatus {IN_USE, AVAILABLE};
     private volatile tStatus status;
-    private volatile Philosopher chopstickHolder;
+    protected volatile Philosopher chopstickHolder;
 
     public Chopstick(int id) {
         chopstickId = id;
