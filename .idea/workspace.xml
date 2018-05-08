@@ -155,12 +155,12 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Kanawade_D\IdeaProjects\practicePrograms\src\test\java" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="DataStructuresAndAlgorithms.Generic" />
       <recent name="DiningPhilosopherImplementation" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kanawade_D\IdeaProjects\practicePrograms\src\test\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -406,10 +406,10 @@
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Version Control" weight="0.32905984" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.5997151" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.85754985" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34630874" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
@@ -447,14 +447,14 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35042736" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32905984" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.75203913" visible="true" weight="0.19530201" />
       <window_info id="Structure" order="1" sideWeight="0.24796085" side_tool="true" weight="0.17718121" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32905984" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35042736" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -836,20 +836,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DataStructuresAndAlgorithms/Generic.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/DataStructuresAndAlgorithms/Other/ShouldNotBeInheritedFromMissingNumberFromArray.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/DataStructureAndAlgorithmTest/Other/MissingNumberFromArrayTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DataStructuresAndAlgorithms/Other/MissingNumberFromArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="6" selection-start-line="5" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DataStructureAndAlgorithmTest/Other/MissingNumberFromArrayTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/DataStructuresAndAlgorithms/Other/MissingNumberFromArray.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.2.0/junit-jupiter-engine-5.2.0.jar!/org/junit/jupiter/engine/execution/ThrowableCollector.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -899,83 +887,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DataStructureAndAlgorithmTest/Other/JavaReflectionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="77" column="27" lean-forward="true" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#displayDefaultArray#0;class#JavaReflectionTest#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DataStructuresAndAlgorithms/Other/JavaReflection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-            <element signature="e#524#525#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DataStructureAndAlgorithmTest/Other/MethodOrderExecTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="16" column="55" lean-forward="true" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DataStructuresAndAlgorithms/Other/OrderedMethodInvocation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DataStructureAndAlgorithmTest/CircularArrayTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1705#1706#0" expanded="true" />
-            <element signature="e#1756#1757#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DataStructuresAndAlgorithms/Generic/CircularArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#2257#2258#0" expanded="true" />
-            <element signature="e#2500#2501#0" expanded="true" />
-            <element signature="e#2537#2538#0" expanded="true" />
-            <element signature="e#2797#2798#0" expanded="true" />
-            <element signature="e#2866#2867#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DataStructuresAndAlgorithms/Generic/CircularArrayIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DataStructureAndAlgorithmTest/Other/JavaReflectionTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/DataStructuresAndAlgorithms/Other/JavaReflection.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/DataStructureAndAlgorithmTest/Other/MethodOrderExecTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/DataStructuresAndAlgorithms/Other/OrderedMethodInvocation.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/DataStructureAndAlgorithmTest/CircularArrayTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/DataStructuresAndAlgorithms/Generic/CircularArray.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/DataStructuresAndAlgorithms/Generic/CircularArrayIterator.java" />
   </component>
   <component name="masterDetails">
     <states>
