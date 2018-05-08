@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f611645-27ab-463c-bf67-97495f3b46eb" name="Default" comment="" />
+    <list default="true" id="7f611645-27ab-463c-bf67-97495f3b46eb" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -105,6 +107,37 @@
               <item name="practicePrograms" type="b2602c69:ProjectViewProjectNode" />
               <item name="practicePrograms" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="practicePrograms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practicePrograms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practicePrograms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practicePrograms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practicePrograms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practicePrograms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practicePrograms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practicePrograms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practicePrograms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practicePrograms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -122,12 +155,12 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kanawade_D\IdeaProjects\practicePrograms\src\test\java" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="DataStructuresAndAlgorithms.Generic" />
       <recent name="DiningPhilosopherImplementation" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Kanawade_D\IdeaProjects\practicePrograms\src\test\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -373,10 +406,10 @@
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Version Control" weight="0.32905984" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32905984" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.5997151" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
