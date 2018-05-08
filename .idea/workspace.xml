@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f611645-27ab-463c-bf67-97495f3b46eb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/LockAwareChopstick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/ResourceSacrificingPhilosopher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DataStructuresAndAlgorithms/Generic/CircularArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DataStructuresAndAlgorithms/Other/MissingNumberFromArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DataStructureAndAlgorithmTest/CircularArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DataStructureAndAlgorithmTest/Other/MissingNumberFromArrayTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/Chopstick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/Chopstick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DiningPhilosopherImplementation/DiningPhilospherTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DiningPhilosopherImplementation/DiningPhilospherTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,7 +18,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="CircularArrayIterator.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DataStructuresAndAlgorithms/Generic/CircularArrayIterator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -73,6 +83,17 @@
         <option value="$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/ResourceSacrificingPhilosopher.java" />
         <option value="$PROJECT_DIR$/src/main/java/DiningPhilosopherImplementation/LockAwareChopstick.java" />
         <option value="$PROJECT_DIR$/src/test/java/DiningPhilosopherImplementation/DiningPhilospherTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DataStructuresAndAlgorithms/CircularArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DataStructuresAndAlgorithms/Other/ShouldNotBeInheritedFromMissingNumberFromArray.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DataStructureAndAlgorithmTest/Other/MissingNumberFromArrayTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DataStructuresAndAlgorithms/Other/MissingNumberFromArray.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DataStructureAndAlgorithmTest/Other/JavaReflectionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DataStructuresAndAlgorithms/Other/JavaReflection.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DataStructureAndAlgorithmTest/Other/MethodOrderExecTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DataStructuresAndAlgorithms/Other/OrderedMethodInvocation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DataStructureAndAlgorithmTest/CircularArrayTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DataStructuresAndAlgorithms/Generic/CircularArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DataStructuresAndAlgorithms/Generic/CircularArrayIterator.java" />
       </list>
     </option>
   </component>
@@ -126,7 +147,46 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="DiningPhilosopherImplementation" type="462c0819:PsiDirectoryNode" />
+              <item name="DataStructuresAndAlgorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practicePrograms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practicePrograms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="DataStructuresAndAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practicePrograms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practicePrograms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practicePrograms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practicePrograms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practicePrograms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practicePrograms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="DataStructureAndAlgorithmTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practicePrograms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practicePrograms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="DataStructureAndAlgorithmTest" type="462c0819:PsiDirectoryNode" />
+              <item name="Other" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -147,6 +207,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="DataStructuresAndAlgorithms.Generic" />
       <recent name="DiningPhilosopherImplementation" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -165,23 +226,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DiningPhilospherTests.deadlockFreePhilosophers_ResourceSacrificingPhilosopher_Test">
+  <component name="RunManager" selected="JUnit.CircularArrayTest.foreachConstructOnCircularArray_Test">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="DiningPhilospherTests.deadlockFreePhilosophers_PollNeighborIntent_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CircularArrayTest.displayArrayNegativeRotationIntermediateHead_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practicePrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DiningPhilosopherImplementation.*" />
+          <option name="PATTERN" value="DataStructureAndAlgorithmTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="DiningPhilosopherImplementation" />
-      <option name="MAIN_CLASS_NAME" value="DiningPhilosopherImplementation.DiningPhilospherTests" />
-      <option name="METHOD_NAME" value="deadlockFreePhilosophers_PollNeighborIntent_Test" />
+      <option name="PACKAGE_NAME" value="DataStructureAndAlgorithmTest" />
+      <option name="MAIN_CLASS_NAME" value="DataStructureAndAlgorithmTest.CircularArrayTest" />
+      <option name="METHOD_NAME" value="displayArrayNegativeRotationIntermediateHead_Test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -192,19 +253,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="DiningPhilospherTests.deadlockFreePhilosophers_ResourceSacrificingPhilosopher_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CircularArrayTest.displayArrayNegativeRotation_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practicePrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DiningPhilosopherImplementation.*" />
+          <option name="PATTERN" value="DataStructureAndAlgorithmTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="DiningPhilosopherImplementation" />
-      <option name="MAIN_CLASS_NAME" value="DiningPhilosopherImplementation.DiningPhilospherTests" />
-      <option name="METHOD_NAME" value="deadlockFreePhilosophers_ResourceSacrificingPhilosopher_Test" />
+      <option name="PACKAGE_NAME" value="DataStructureAndAlgorithmTest" />
+      <option name="MAIN_CLASS_NAME" value="DataStructureAndAlgorithmTest.CircularArrayTest" />
+      <option name="METHOD_NAME" value="displayArrayNegativeRotation_Test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -215,19 +276,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="DiningPhilospherTests.deadlockFreePhilosophers_RestrictedAccessStrategy_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CircularArrayTest.displayArrayPositiveRotation_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practicePrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DiningPhilosopherImplementation.*" />
+          <option name="PATTERN" value="DataStructureAndAlgorithmTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="DiningPhilosopherImplementation" />
-      <option name="MAIN_CLASS_NAME" value="DiningPhilosopherImplementation.DiningPhilospherTests" />
-      <option name="METHOD_NAME" value="deadlockFreePhilosophers_RestrictedAccessStrategy_Test" />
+      <option name="PACKAGE_NAME" value="DataStructureAndAlgorithmTest" />
+      <option name="MAIN_CLASS_NAME" value="DataStructureAndAlgorithmTest.CircularArrayTest" />
+      <option name="METHOD_NAME" value="displayArrayPositiveRotation_Test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -238,19 +299,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="DiningPhilospherTests.neighbourAwareDiningSetup_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CircularArrayTest.foreachConstructOnCircularArray_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practicePrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DiningPhilosopherImplementation.*" />
+          <option name="PATTERN" value="DataStructureAndAlgorithmTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="DiningPhilosopherImplementation" />
-      <option name="MAIN_CLASS_NAME" value="DiningPhilosopherImplementation.DiningPhilospherTests" />
-      <option name="METHOD_NAME" value="neighbourAwareDiningSetup_test" />
+      <option name="PACKAGE_NAME" value="DataStructureAndAlgorithmTest" />
+      <option name="MAIN_CLASS_NAME" value="DataStructureAndAlgorithmTest.CircularArrayTest" />
+      <option name="METHOD_NAME" value="foreachConstructOnCircularArray_Test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -261,19 +322,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="DiningPhilospherTests.neighbourHungryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MethodOrderExecTest.orderedMethodTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practicePrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DiningPhilosopherImplementation.*" />
+          <option name="PATTERN" value="DataStructureAndAlgorithmTest.Other.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="DiningPhilosopherImplementation" />
-      <option name="MAIN_CLASS_NAME" value="DiningPhilosopherImplementation.DiningPhilospherTests" />
-      <option name="METHOD_NAME" value="neighbourHungryTest" />
+      <option name="PACKAGE_NAME" value="DataStructureAndAlgorithmTest.Other" />
+      <option name="MAIN_CLASS_NAME" value="DataStructureAndAlgorithmTest.Other.MethodOrderExecTest" />
+      <option name="METHOD_NAME" value="orderedMethodTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -323,19 +384,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.DiningPhilospherTests.deadlockFreePhilosophers_RestrictedAccessStrategy_Test" />
-      <item itemvalue="JUnit.DiningPhilospherTests.neighbourAwareDiningSetup_test" />
-      <item itemvalue="JUnit.DiningPhilospherTests.deadlockFreePhilosophers_PollNeighborIntent_Test" />
-      <item itemvalue="JUnit.DiningPhilospherTests.neighbourHungryTest" />
-      <item itemvalue="JUnit.DiningPhilospherTests.deadlockFreePhilosophers_ResourceSacrificingPhilosopher_Test" />
+      <item itemvalue="JUnit.MethodOrderExecTest.orderedMethodTest" />
+      <item itemvalue="JUnit.CircularArrayTest.displayArrayPositiveRotation_Test" />
+      <item itemvalue="JUnit.CircularArrayTest.displayArrayNegativeRotation_Test" />
+      <item itemvalue="JUnit.CircularArrayTest.displayArrayNegativeRotationIntermediateHead_Test" />
+      <item itemvalue="JUnit.CircularArrayTest.foreachConstructOnCircularArray_Test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DiningPhilospherTests.deadlockFreePhilosophers_ResourceSacrificingPhilosopher_Test" />
-        <item itemvalue="JUnit.DiningPhilospherTests.deadlockFreePhilosophers_PollNeighborIntent_Test" />
-        <item itemvalue="JUnit.DiningPhilospherTests.neighbourHungryTest" />
-        <item itemvalue="JUnit.DiningPhilospherTests.neighbourAwareDiningSetup_test" />
-        <item itemvalue="JUnit.DiningPhilospherTests.deadlockFreePhilosophers_RestrictedAccessStrategy_Test" />
+        <item itemvalue="JUnit.CircularArrayTest.foreachConstructOnCircularArray_Test" />
+        <item itemvalue="JUnit.CircularArrayTest.displayArrayNegativeRotationIntermediateHead_Test" />
+        <item itemvalue="JUnit.CircularArrayTest.displayArrayNegativeRotation_Test" />
+        <item itemvalue="JUnit.CircularArrayTest.displayArrayPositiveRotation_Test" />
+        <item itemvalue="JUnit.MethodOrderExecTest.orderedMethodTest" />
       </list>
     </recent_temporary>
   </component>
@@ -353,39 +414,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DiningPhilospherTests_deadlockFreePhilosophers_PollNeighborIntent_Test - 2018.05.06 at 16h 13m 40s.xml">
-      <configuration name="DiningPhilospherTests.deadlockFreePhilosophers_PollNeighborIntent_Test" configurationId="JUnit" />
+    <history-entry file="CircularArrayTest_displayArrayNegativeRotation_Test - 2018.05.08 at 07h 51m 36s.xml">
+      <configuration name="CircularArrayTest.displayArrayNegativeRotation_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiningPhilospherTests_deadlockFreePhilosophers_PollNeighborIntent_Test - 2018.05.06 at 16h 16m 28s.xml">
-      <configuration name="DiningPhilospherTests.deadlockFreePhilosophers_PollNeighborIntent_Test" configurationId="JUnit" />
+    <history-entry file="CircularArrayTest_displayArrayNegativeRotationIntermediateHead_Test - 2018.05.08 at 07h 56m 19s.xml">
+      <configuration name="CircularArrayTest.displayArrayNegativeRotationIntermediateHead_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiningPhilospherTests_deadlockFreePhilosophers_PollNeighborIntent_Test - 2018.05.06 at 16h 17m 32s.xml">
-      <configuration name="DiningPhilospherTests.deadlockFreePhilosophers_PollNeighborIntent_Test" configurationId="JUnit" />
+    <history-entry file="CircularArrayTest_displayArrayNegativeRotationIntermediateHead_Test - 2018.05.08 at 07h 59m 21s.xml">
+      <configuration name="CircularArrayTest.displayArrayNegativeRotationIntermediateHead_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiningPhilospherTests_deadlockFreePhilosophers_PollNeighborIntent_Test - 2018.05.06 at 16h 34m 32s.xml">
-      <configuration name="DiningPhilospherTests.deadlockFreePhilosophers_PollNeighborIntent_Test" configurationId="JUnit" />
+    <history-entry file="CircularArrayTest_displayArrayNegativeRotationIntermediateHead_Test - 2018.05.08 at 08h 00m 15s.xml">
+      <configuration name="CircularArrayTest.displayArrayNegativeRotationIntermediateHead_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiningPhilospherTests_deadlockFreePhilosophers_ResourceSacrificingPhilosopher_Test - 2018.05.06 at 18h 22m 53s.xml">
-      <configuration name="DiningPhilospherTests.deadlockFreePhilosophers_ResourceSacrificingPhilosopher_Test" configurationId="JUnit" />
+    <history-entry file="CircularArrayTest_foreachConstructOnCircularArray_Test - 2018.05.08 at 08h 12m 09s.xml">
+      <configuration name="CircularArrayTest.foreachConstructOnCircularArray_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiningPhilospherTests_deadlockFreePhilosophers_ResourceSacrificingPhilosopher_Test - 2018.05.06 at 18h 26m 28s.xml">
-      <configuration name="DiningPhilospherTests.deadlockFreePhilosophers_ResourceSacrificingPhilosopher_Test" configurationId="JUnit" />
+    <history-entry file="CircularArrayTest_foreachConstructOnCircularArray_Test - 2018.05.08 at 08h 15m 44s.xml">
+      <configuration name="CircularArrayTest.foreachConstructOnCircularArray_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiningPhilospherTests_deadlockFreePhilosophers_ResourceSacrificingPhilosopher_Test - 2018.05.06 at 18h 29m 55s.xml">
-      <configuration name="DiningPhilospherTests.deadlockFreePhilosophers_ResourceSacrificingPhilosopher_Test" configurationId="JUnit" />
+    <history-entry file="CircularArrayTest_foreachConstructOnCircularArray_Test - 2018.05.08 at 10h 06m 50s.xml">
+      <configuration name="CircularArrayTest.foreachConstructOnCircularArray_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiningPhilospherTests_deadlockFreePhilosophers_ResourceSacrificingPhilosopher_Test - 2018.05.06 at 18h 33m 01s.xml">
-      <configuration name="DiningPhilospherTests.deadlockFreePhilosophers_ResourceSacrificingPhilosopher_Test" configurationId="JUnit" />
+    <history-entry file="CircularArrayTest_foreachConstructOnCircularArray_Test - 2018.05.08 at 10h 07m 41s.xml">
+      <configuration name="CircularArrayTest.foreachConstructOnCircularArray_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiningPhilospherTests_deadlockFreePhilosophers_ResourceSacrificingPhilosopher_Test - 2018.05.06 at 18h 37m 17s.xml">
-      <configuration name="DiningPhilospherTests.deadlockFreePhilosophers_ResourceSacrificingPhilosopher_Test" configurationId="JUnit" />
+    <history-entry file="CircularArrayTest_foreachConstructOnCircularArray_Test - 2018.05.08 at 10h 07m 58s.xml">
+      <configuration name="CircularArrayTest.foreachConstructOnCircularArray_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiningPhilospherTests_deadlockFreePhilosophers_ResourceSacrificingPhilosopher_Test - 2018.05.06 at 18h 43m 20s.xml">
-      <configuration name="DiningPhilospherTests.deadlockFreePhilosophers_ResourceSacrificingPhilosopher_Test" configurationId="JUnit" />
+    <history-entry file="CircularArrayTest_foreachConstructOnCircularArray_Test - 2018.05.08 at 10h 09m 09s.xml">
+      <configuration name="CircularArrayTest.foreachConstructOnCircularArray_Test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -396,18 +458,18 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32905984" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6994302" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.5968661" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.44871795" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.30341882" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.75203913" visible="true" weight="0.25838926" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.75203913" visible="true" weight="0.25973153" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.42307693" />
       <window_info id="Structure" order="1" sideWeight="0.24796085" side_tool="true" weight="0.17718121" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.66096866" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33760685" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -418,10 +480,10 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5997151" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35042736" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.75203913" weight="0.147651" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.75203913" visible="true" weight="0.19530201" />
       <window_info id="Structure" order="1" sideWeight="0.24796085" side_tool="true" weight="0.17718121" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -429,10 +491,10 @@
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.17806268" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3133903" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.42307693" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.54985756" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.5997151" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.30341882" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32905984" />
@@ -493,8 +555,64 @@
           <properties />
           <option name="timeStamp" value="30" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/DataStructureAndAlgorithmTest/CircularArrayTest.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/DataStructureAndAlgorithmTest/CircularArrayTest.java</url>
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DataStructuresAndAlgorithms/Other/JavaReflection.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/DataStructureAndAlgorithmTest/Other/JavaReflectionTest.java</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DataStructuresAndAlgorithms/Other/JavaReflection.java</url>
+          <line>55</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DataStructuresAndAlgorithms/Generic/CircularArray.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DataStructuresAndAlgorithms/Generic/CircularArrayIterator.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DataStructuresAndAlgorithms/Generic/CircularArrayIterator.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DataStructuresAndAlgorithms/Generic/CircularArray.java</url>
+          <line>83</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="32" />
+      <option name="time" value="49" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
@@ -512,61 +630,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/generalprogramming/SocketProgramming/TCPClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#forTestAndDebug#0;class#TCPClient#0" />
-            <element signature="method#main#0;class#TCPClient#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/generalprogramming/SocketProgramming/MultithreadedServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2400">
-          <caret line="130" column="16" lean-forward="true" selection-start-line="130" selection-start-column="16" selection-end-line="130" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#reverseString#0;class#MultithreadedServer#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/generalprogramming/SocketProgramming/TCPServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="64" column="5" lean-forward="true" selection-start-line="54" selection-start-column="3" selection-end-line="64" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#370#378#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/sun/misc/FloatingDecimal.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Float.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="450" selection-start-line="450" selection-end-line="450" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/net/PlainSocketImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
@@ -694,19 +757,6 @@
           <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dealockFreeLockManager/ResourceConsumingThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="93" column="5" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#run#0;class#ResourceConsumingThread#0" />
-            <element signature="method#clearResourceLists#0;class#ResourceConsumingThread#0" />
-            <element signature="method#setIsDeadlockDetected#0;class#ResourceConsumingThread#0" />
           </folding>
         </state>
       </provider>
@@ -885,6 +935,183 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DataStructuresAndAlgorithms/Generic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DataStructuresAndAlgorithms/Other/ShouldNotBeInheritedFromMissingNumberFromArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DataStructureAndAlgorithmTest/Other/MissingNumberFromArrayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DataStructuresAndAlgorithms/Other/MissingNumberFromArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="6" selection-start-line="5" selection-end-line="5" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.2.0/junit-jupiter-engine-5.2.0.jar!/org/junit/jupiter/engine/execution/ThrowableCollector.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.2.0/junit-jupiter-engine-5.2.0.jar!/org/junit/jupiter/engine/descriptor/TestMethodTestDescriptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-engine/1.2.0/junit-platform-engine-1.2.0.jar!/org/junit/platform/engine/support/hierarchical/HierarchicalTestExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="113" selection-start-line="113" selection-end-line="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-engine/1.2.0/junit-platform-engine-1.2.0.jar!/org/junit/platform/engine/support/hierarchical/SingleTestExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dealockFreeLockManager/ResourceConsumingThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="93" column="5" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#clearResourceLists#0;class#ResourceConsumingThread#0" />
+            <element signature="method#setIsDeadlockDetected#0;class#ResourceConsumingThread#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="483" column="18" selection-start-line="483" selection-start-column="18" selection-end-line="483" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.2.0/junit-platform-commons-1.2.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="234" selection-start-line="234" selection-end-line="234" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DataStructureAndAlgorithmTest/Other/JavaReflectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="77" column="27" lean-forward="true" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#displayDefaultArray#0;class#JavaReflectionTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DataStructuresAndAlgorithms/Other/JavaReflection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DataStructureAndAlgorithmTest/Other/MethodOrderExecTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="16" column="55" lean-forward="true" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DataStructuresAndAlgorithms/Other/OrderedMethodInvocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DataStructureAndAlgorithmTest/CircularArrayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1705#1706#0" expanded="true" />
+            <element signature="e#1756#1757#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DataStructuresAndAlgorithms/Generic/CircularArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#2257#2258#0" expanded="true" />
+            <element signature="e#2500#2501#0" expanded="true" />
+            <element signature="e#2537#2538#0" expanded="true" />
+            <element signature="e#2797#2798#0" expanded="true" />
+            <element signature="e#2866#2867#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DataStructuresAndAlgorithms/Generic/CircularArrayIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
         </state>
       </provider>
     </entry>
