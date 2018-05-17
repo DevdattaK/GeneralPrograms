@@ -9,6 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import java.util.*;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.locks.ReentrantLock;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
@@ -272,6 +273,17 @@ public class ElevatorTest {
     }
 
     @Test
+    void reEntrantLockAcquisition() {
+        ReentrantLock lock = new ReentrantLock();
+
+        for(int i = 0; i < 5; i++){
+            lock.lock();
+            System.out.println("Lock acquired for #" + i + "times without releasing prior locks, through same thread.");
+        }
+        System.out.println("Lock hold count : " + lock.getHoldCount());
+    }
+
+    @Test
     void IfUserRequestedElevator_ThenElevatorGoesToThatFloorAndUsersEnterElevator_ThenElevatorGoesToDestination_ThenUserExits() throws InterruptedException {
         ElevatorUser user = users.stream()
                 .findFirst()
@@ -292,4 +304,6 @@ public class ElevatorTest {
 
         assertEquals(user.getAtFloor(), elevator.getNextFloor(), "user requested elevator however levator went somewhere else.");
     }
+
+
 }

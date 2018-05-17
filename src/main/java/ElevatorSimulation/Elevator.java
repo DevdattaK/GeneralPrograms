@@ -135,7 +135,7 @@ public class Elevator implements Runnable {
 
         System.out.println("Elevator " + elevatorId + " reached to Floor " + nextFloor.getNumber() + ". All users, do your task now.");
 
-        synchronized (this.nextFloor) {
+        synchronized (this.atFloor) {
             this.doorState = tDoorState.DOOR_OPEN;
 
             this.atFloor.getWaitingUsers()
