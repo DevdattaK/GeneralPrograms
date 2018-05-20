@@ -215,6 +215,23 @@ public class BinsarySearchTreeTest {
     }
 
     @Test
+    void deleteSubtreeTest() {
+        Node<Integer>[] nodes = new Node[]{new Node(4), new Node(2), new Node(6),
+                new Node(1), new Node(3), new Node(5), new Node(8), new Node(7), new Node(9)};
+        bst.buildBinarySearchTree(nodes);
+        System.out.println("\n Before deleting");
+        bst.printBinarySearchTree();
+
+        bst.deleteSubtreeRecursively(8);
+        System.out.println("\n Before deleting subtree rooted at 8");
+        bst.printBinarySearchTree();
+
+        bst.deleteSubtreeRecursively(4);
+        System.out.println("\n After deleting root");
+        bst.printBinarySearchTree();
+    }
+
+    @Test
     void inOrderTraversalTest() {
         Node<Integer>[] nodes = new Node[]{new Node(4), new Node(2), new Node(6),
                 new Node(1), new Node(3), new Node(5), new Node(8), new Node(7), new Node(9)};

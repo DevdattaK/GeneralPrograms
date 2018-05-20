@@ -252,7 +252,7 @@ public class BinarySearchTree<T extends Comparable> {
                 }
             }
 
-            if(nodeToDelete == this.root)
+            if (nodeToDelete == this.root)
                 this.root = replacementNode;
 
             nodeToDelete.setLeft(null);
@@ -320,5 +320,35 @@ public class BinarySearchTree<T extends Comparable> {
         }
 
         return curNode;
+    }
+
+    private void deleteChildrenRecursively(Node<T> fromNode) {
+        if(fromNode != null && fromNode.getLeft() != null){
+            this.deleteChildrenRecursively(fromNode.getLeft());
+            fromNode.setLeft(null);
+        }
+        if(fromNode != null && fromNode.getRight() != null){
+            this.deleteChildrenRecursively(fromNode.getRight());
+            fromNode.setRight(null);
+        }
+    }
+
+    public void deleteSubtreeRecursively(T dataToDel) {
+        Node<T> nodeToDelete = this.getNodeWithData(dataToDel);
+        if (nodeToDelete != null) {
+            Node<T> parentOfNodeToDelete = this.getParentOf(nodeToDelete);
+
+            this.deleteChildrenRecursively(nodeToDelete);
+
+            //then break the link, unless the node-to-delete is root node.
+            if (parentOfNodeToDelete != null) {
+                if(parentOfNodeToDelete.getLeft() == nodeToDelete)
+                    parentOfNodeToDelete.setLeft(null);
+                else
+                    parentOfNodeToDelete.setRight(null);
+            }else{
+                this.root = null;
+            }
+        }
     }
 }
