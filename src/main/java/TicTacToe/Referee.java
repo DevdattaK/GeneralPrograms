@@ -2,6 +2,7 @@ package TicTacToe;
 
 import TicTacToe.GameBoard.tCellOrientation;
 import java.util.List;
+import java.util.function.Supplier;
 import java.util.stream.Collectors;
 
 public class Referee implements Runnable {
@@ -78,9 +79,36 @@ public class Referee implements Runnable {
     //find winner and set fields if one exists.
     updateWinnerStatus();
 
+    //terminate all player threads and then terminate referee thread.
+    updateGameStateIfNoMoreElectionPossibleByAnybody();
+
     //release board control, for referee to schedule next player's turn to play game
     gameBoard.releaseBoardControl();
   }
+
+  private static void updateGameStateIfNoMoreElectionPossibleByAnybody() {
+    //declare winner, but not a player.
+    if (Game.getPlayers()
+            .stream()
+            .allMatch(player -> player.getWinningCellCalculator()
+                                      .getCells().length == 0)) {
+      Referee.isWinnerIdentified = true;
+
+      //release all player locks, so if any player is waiting on lock, that player will exit the game.
+      Game.getPlayers()
+          .stream()
+          .filter(player -> player.isWaitingForLock())
+          .forEach(player ->
+              player.releaseLock());
+
+      //closes scanner on human player thread..trial.
+      Game.getPlayers()
+          .stream()
+          .forEach(player -> player.notifyWinnerIdentified());
+
+    }
+  }
+
 
   private static List<BoardCell> getElementsAt(int index, tCellOrientation entityType) {
     //1st row is at index (1+dimension) of boardCell list.
@@ -106,6 +134,17 @@ public class Referee implements Runnable {
     return count == gameBoard.getDimension();
   }
 
+  public static boolean isEntityBlocked(List<BoardCell> entity) {
+    boolean result = entity.stream()
+                           .filter(cell -> !cell.isNotPopulated())
+                           .anyMatch(cell -> entity.stream()
+                                                   .filter(c -> !c.isNotPopulated())
+                                                   .anyMatch(c -> !(c.getSign()
+                                                                     .equals(cell.getSign()))));
+
+    return result;
+  }
+
   //optimize TODO
   public static void updateWinnerStatus() {
     List<BoardCell> elementsOnSameAxis = null;
@@ -123,6 +162,15 @@ public class Referee implements Runnable {
                                                                   .getSign());
               isWinnerIdentified = true;
               break;
+            } else {
+              //if the entity is blocked, remove all cells on this entity from all player's potential winning list.
+              //System.out.println("...Entity blocked, removing all cells from all player's list...");
+              if (isEntityBlocked(elementsOnSameAxis)) {
+                elementsOnSameAxis.stream()
+                                  .forEach(e -> Game.getPlayers()
+                                                    .stream()
+                                                    .forEach(player -> player.notifyEntityBlocked(e)));
+              }
             }
           }
         } else {
@@ -136,6 +184,15 @@ public class Referee implements Runnable {
             winnerPlayerId = Integer.parseInt(elementsOnSameAxis.get(0)
                                                                 .getSign());
             isWinnerIdentified = true;
+          } else {
+            //if the entity is blocked, remove all cells on this entity from all player's potential winning list.
+            //System.out.println("...Entity blocked, removing all cells from all player's list...");
+            if (isEntityBlocked(elementsOnSameAxis)) {
+              elementsOnSameAxis.stream()
+                                .forEach(e -> Game.getPlayers()
+                                                  .stream()
+                                                  .forEach(player -> player.notifyEntityBlocked(e)));
+            }
           }
 
         }
@@ -165,13 +222,15 @@ public class Referee implements Runnable {
         gameBoard.acquireBoardControl();
         System.out.println(this + " acquired board control.");
 
-        //set player who can play next.
-        this.setCurrentTurnOfPlayer();
+        if (!isWinnerIdentified) {
+          //set player who can play next.
+          this.setCurrentTurnOfPlayer();
 
-        System.out.println("Current player to take next turn is : " + this.getCurrentTurnOfPlayer());
+          System.out.println("Current player to take next turn is : " + this.getCurrentTurnOfPlayer());
 
-        //releases lock of current player.
-        this.currentTurnOfPlayer.startYourTurn();
+          //releases lock of current player.
+          this.currentTurnOfPlayer.startYourTurn();
+        }
       } catch (InterruptedException e) {
         e.printStackTrace();
       }

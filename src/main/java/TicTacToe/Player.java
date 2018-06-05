@@ -34,6 +34,11 @@ public class Player implements Runnable {
     this.winningCellCalculator.removeCell(cell);
   }
 
+  //remove this cell, as there is no point in populating it. The entity which has this cell is blocked.
+  public void notifyEntityBlocked(BoardCell cell) {
+    this.notifyCellPopulated(cell);
+  }
+
   public int getPlayerId() {
     return playerId;
   }
@@ -43,7 +48,7 @@ public class Player implements Runnable {
     turnLock.release();
   }
 
-  public void releaseLock(){
+  public void releaseLock() {
     turnLock.release();
   }
 
@@ -51,10 +56,18 @@ public class Player implements Runnable {
     turnLock.acquire();
   }
 
+  public boolean isWaitingForLock() {
+    return Thread.currentThread().isAlive() && turnLock.availablePermits() == 0;
+  }
+
+  public void notifyWinnerIdentified(){
+    //no implem required for bot-players as they do not wait for user inputs.
+  }
+
 
   @Override
   public void run() {
-    BoardCell cell;
+    Optional<BoardCell> cell;
 
     while (!Referee.isIsWinnerIdentified()) {
       try {
@@ -62,14 +75,22 @@ public class Player implements Runnable {
         this.acquireLock();
         System.out.println("Player Lock acquired by " + this);
 
-        cell = this.makeYourMove();
+        //checking if winner is declared while the player was waiting for lock..
+        if(!Referee.isIsWinnerIdentified()) {
+          cell = this.makeYourMove();
 
-        System.out.println(this + " populated " + cell);
+          System.out.println(this + " populated " + cell);
 
-        System.out.println(this + " is releasing lock.");
-        this.releaseLock();
+          System.out.println(this + " is releasing lock.");
+          this.releaseLock();
 
-        Referee.notifyTurnCompleteFor(this, cell);
+          if (cell.isPresent()) {
+            Referee.notifyTurnCompleteFor(this, cell.get());
+          } else {
+            System.out.println("Cell is empty.");
+            break;
+          }
+        }
       } catch (InterruptedException e) {
         e.printStackTrace();
       }
@@ -79,7 +100,7 @@ public class Player implements Runnable {
   }
 
   //get the top-cell for your opponent and block it, if it has more chances to win for opponent. Otherwise, maximize your chance.
-  public BoardCell makeYourMove() {
+  public Optional<BoardCell> makeYourMove() {
     Map<Player, BoardCell> opponentsTopWinningChoices = this.getOpponentsWinningChoices();
     Optional<BoardCell> opponentTargetCell = Optional.empty();
 
@@ -97,7 +118,7 @@ public class Player implements Runnable {
                                                      .findFirst();
 
       //if opponent has a next target, block it with your mark.
-      if(opponentTargetCell.isPresent()){
+      if (opponentTargetCell.isPresent()) {
         targetCell = opponentTargetCell;
       }
     }
@@ -105,9 +126,11 @@ public class Player implements Runnable {
     if (targetCell.isPresent()) {
       targetCell.get()
                 .setSign(Integer.toString(this.playerId));
+      return targetCell;
+    } else {
+      return opponentTargetCell;
     }
 
-    return targetCell.get();
   }
 
   private Map<Player, BoardCell> getOpponentsWinningChoices() {
@@ -125,4 +148,6 @@ public class Player implements Runnable {
   public String toString() {
     return "Player " + playerId;
   }
+
+
 }

@@ -149,4 +149,10 @@ public class WinningCellCalculator {
                        .filter(c -> c != cell)
                        .toArray(BoardCell[]::new);
   }
+
+  public void removeAllCells(List<BoardCell> cellsToBeRemoved) {
+    this.cells = Arrays.stream(this.cells)
+                       .filter(cell -> !cellsToBeRemoved.contains(cell))
+                       .toArray(BoardCell[]::new);
+  }
 }

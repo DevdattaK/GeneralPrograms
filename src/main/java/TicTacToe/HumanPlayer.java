@@ -1,8 +1,11 @@
 package TicTacToe;
 
+import java.io.IOException;
+import java.util.Optional;
 import java.util.Scanner;
 
 public class HumanPlayer extends Player {
+
   private final Scanner scanner;
 
   public HumanPlayer(int playerId, GameBoard gameBoard) {
@@ -11,36 +14,47 @@ public class HumanPlayer extends Player {
     scanner.useDelimiter("\\n");
   }
 
+  public void notifyWinnerIdentified(){
+    try {
+      System.in.close();
+    } catch (IOException e) {
+      e.printStackTrace();
+    }
+  }
 
   @Override
-  public BoardCell makeYourMove() {
+  public Optional<BoardCell> makeYourMove() {
 
     boolean isValidCellForMove = false;
-    BoardCell cell = null;
+    Optional<BoardCell> cell = Optional.empty();
 
     while (!isValidCellForMove) {
       System.out.println("Print your 'Row, Column' choice in format : 'Row#,Column#' : ");
       String userInput = "";
 
-     if (scanner.hasNext()) {
+      try {
         userInput = scanner.nextLine();
-     }
+      }catch (IllegalStateException e){
+        //e.printStackTrace();
+      }
 
       String[] choice = userInput.split(",");
       int row = Integer.parseInt(choice[0]);
       int column = Integer.parseInt(choice[1]);
 
-      cell = this.gameBoard.getCellWithCoordinates(row, column);
+      cell = Optional.of(this.gameBoard.getCellWithCoordinates(row, column));
 
-      if (cell.isNotPopulated()) {
+      if (cell.isPresent() && cell.get()
+                                  .isNotPopulated()) {
         isValidCellForMove = true;
       }
     }
 
     //scanner.close();
 
-    if (cell != null) {
-      cell.setSign(Integer.toString(this.getPlayerId()));
+    if (cell.isPresent()) {
+      cell.get()
+          .setSign(Integer.toString(this.getPlayerId()));
     }
 
     return cell;
