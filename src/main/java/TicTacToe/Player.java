@@ -1,8 +1,6 @@
 package TicTacToe;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.concurrent.Semaphore;
@@ -71,17 +69,17 @@ public class Player implements Runnable {
 
     while (!Referee.isIsWinnerIdentified()) {
       try {
-        System.out.println(this + " is trying to acquire lock.");
+        //System.out.println(this + " is trying to acquire lock.");
         this.acquireLock();
-        System.out.println("Player Lock acquired by " + this);
+        //System.out.println("Player Lock acquired by " + this);
 
         //checking if winner is declared while the player was waiting for lock..
         if(!Referee.isIsWinnerIdentified()) {
           cell = this.makeYourMove();
 
-          System.out.println(this + " populated " + cell);
+          //System.out.println(this + " populated " + cell);
 
-          System.out.println(this + " is releasing lock.");
+          //System.out.println(this + " is releasing lock.");
           this.releaseLock();
 
           if (cell.isPresent()) {

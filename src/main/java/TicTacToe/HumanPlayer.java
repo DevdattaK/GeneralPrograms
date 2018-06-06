@@ -14,12 +14,14 @@ public class HumanPlayer extends Player {
     scanner.useDelimiter("\\n");
   }
 
-  public void notifyWinnerIdentified(){
-    try {
-      System.in.close();
-    } catch (IOException e) {
+  public void notifyWinnerIdentified() {
+    //try {
+    //System.in.close();
+    Thread.currentThread()
+          .interrupt();
+    /*} catch (InterruptedException e) {
       e.printStackTrace();
-    }
+    }*/
   }
 
   @Override
@@ -34,7 +36,7 @@ public class HumanPlayer extends Player {
 
       try {
         userInput = scanner.nextLine();
-      }catch (IllegalStateException e){
+      } catch (IllegalStateException e) {
         //e.printStackTrace();
       }
 

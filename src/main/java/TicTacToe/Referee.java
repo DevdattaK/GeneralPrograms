@@ -50,20 +50,20 @@ public class Referee implements Runnable {
     if (this.currentTurnOfPlayer == null) {
       this.currentTurnOfPlayer = Game.getPlayers()
                                      .get(0);
-      System.out.println("Next player selected to play is first player : " + this.currentTurnOfPlayer);
+      //System.out.println("Next player selected to play is first player : " + this.currentTurnOfPlayer);
     } else {
       nextPlayerIndex = this.currentTurnOfPlayer.getPlayerId() % Game.getPlayers()
                                                                      .size();
 
       this.currentTurnOfPlayer = Game.getPlayers()
                                      .get(nextPlayerIndex);
-      System.out.println("Next player selected to play is computed player : " + this.currentTurnOfPlayer);
+      //System.out.println("Next player selected to play is computed player : " + this.currentTurnOfPlayer);
     }
   }
 
   public static void notifyTurnCompleteFor(Player player, BoardCell cell) throws InterruptedException {
     player.acquireLock();
-    System.out.println("Referee acquired lock for " + player + " after its turn is over.");
+    //System.out.println("Referee acquired lock for " + player + " after its turn is over.");
 
     System.out.println("Current state of the board is : ");
     gameBoard.display();
@@ -218,15 +218,15 @@ public class Referee implements Runnable {
   public void run() {
     while (!isWinnerIdentified) {
       try {
-        System.out.println(this + " is trying to acquire board control.");
+        //System.out.println(this + " is trying to acquire board control.");
         gameBoard.acquireBoardControl();
-        System.out.println(this + " acquired board control.");
+        //System.out.println(this + " acquired board control.");
 
         if (!isWinnerIdentified) {
           //set player who can play next.
           this.setCurrentTurnOfPlayer();
 
-          System.out.println("Current player to take next turn is : " + this.getCurrentTurnOfPlayer());
+          //System.out.println("Current player to take next turn is : " + this.getCurrentTurnOfPlayer());
 
           //releases lock of current player.
           this.currentTurnOfPlayer.startYourTurn();
