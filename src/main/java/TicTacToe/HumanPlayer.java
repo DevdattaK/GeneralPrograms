@@ -17,8 +17,10 @@ public class HumanPlayer extends Player {
   public void notifyWinnerIdentified() {
     //try {
     //System.in.close();
-    Thread.currentThread()
-          .interrupt();
+    if (Referee.isIsWinnerIdentified()) {
+      Thread.currentThread()
+            .interrupt();
+    }
     /*} catch (InterruptedException e) {
       e.printStackTrace();
     }*/
@@ -37,7 +39,7 @@ public class HumanPlayer extends Player {
       try {
         userInput = scanner.nextLine();
       } catch (IllegalStateException e) {
-        //e.printStackTrace();
+        e.printStackTrace();
       }
 
       String[] choice = userInput.split(",");

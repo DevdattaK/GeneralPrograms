@@ -61,8 +61,8 @@ public class Referee implements Runnable {
     }
   }
 
-  public static void notifyTurnCompleteFor(Player player, BoardCell cell) throws InterruptedException {
-    player.acquireLock();
+  public static void notifyTurnCompleteFor(Player player, BoardCell cell){
+    //player.acquireLock();
     //System.out.println("Referee acquired lock for " + player + " after its turn is over.");
 
     System.out.println("Current state of the board is : ");

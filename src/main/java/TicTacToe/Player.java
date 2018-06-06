@@ -80,7 +80,7 @@ public class Player implements Runnable {
           //System.out.println(this + " populated " + cell);
 
           //System.out.println(this + " is releasing lock.");
-          this.releaseLock();
+          //this.releaseLock();
 
           if (cell.isPresent()) {
             Referee.notifyTurnCompleteFor(this, cell.get());

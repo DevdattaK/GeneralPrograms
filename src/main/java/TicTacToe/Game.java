@@ -69,6 +69,7 @@ public class Game {
 
     if (userChoice.toLowerCase()
                   .equals("y")) {
+      System.out.println("You are player1.");
       players.remove(0);
       players.add(0, new HumanPlayer(1, gameBoard));
     }
